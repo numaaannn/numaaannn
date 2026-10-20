@@ -1,32 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 316" width="1000" height="316" role="img" aria-label="Skill status. Practiced: git, github, python, docker basics. Learning now: linux and networking, bash, docker images and Dockerfiles, github actions. Next up: aws, terraform, ansible, kubernetes, jenkins, monitoring and logging." xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyMmZmMzBkNC0yNmNmLTQ5NjEtODgyNy04ODNhOWQ3NTQzNjgAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaB1VeA4KISnJK7BxogxRgyoAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1OTg5MzczNy0wMjQxLTRmMGEtYjM5My00ZjM3YzU1YTY3MzhscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoaHvFT6LlAq1QcmUtgdvcigAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg6nna6lJuZyIlH4OF4Sbqy+ovBCyCUcBkR7iuwc9s24GkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaOUZKiCJQDZjX8G1ujiPw1YAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIMLl0Ug2E/OFvVqYG4kR2UIa9siRo11OnKY8fP4jktOPZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQG8Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjIyZmYzMGQ0LTI2Y2YtNDk2MS04ODI3LTg4M2E5ZDc1NDM2OC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmZmMmNhMjU5LTZhNzgtNDA1ZS1iZGNjLWQyMDBmOGFmYTM1N3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDqedrqUm5nIiUfg4XhJurL6i8ELIJRwGRHuK7Bz2zbgaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg/7yhqODHMgFLvf2/Xce74dM35ghxhEZFH5CS91V06y+iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg4FTu1agW0/5olkXLxhRG5b5m0mzRd/IOIKKKFC+NFrF0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQPdJZ+sgPDaLFNPlPl1b32WKbzZyTgivEem7DRLd+dx0WswNG6TbFeeuc3cfcKr1TNZ5pe964lQE0ptKZ+9Ok2E=</c2pa:manifest></metadata>
-<title>Skill status</title>
-<style>
-  text{font-family:'Cascadia Mono','Consolas','DejaVu Sans Mono','Courier New',monospace}
-  .b0{animation:b0 16s linear infinite} @keyframes b0{0%,5.62%{opacity:0}5.62%,93%{opacity:1}100%{opacity:0}} .b1{animation:b1 16s linear infinite} @keyframes b1{0%,8.74%{opacity:0}8.75%,93%{opacity:1}100%{opacity:0}} .b2{animation:b2 16s linear infinite} @keyframes b2{0%,11.87%{opacity:0}11.88%,93%{opacity:1}100%{opacity:0}} .b3{animation:b3 16s linear infinite} @keyframes b3{0%,14.99%{opacity:0}15.00%,93%{opacity:1}100%{opacity:0}} .b4{animation:b4 16s linear infinite} @keyframes b4{0%,18.11%{opacity:0}18.12%,93%{opacity:1}100%{opacity:0}} .b5{animation:b5 16s linear infinite} @keyframes b5{0%,21.24%{opacity:0}21.25%,93%{opacity:1}100%{opacity:0}} .b6{animation:b6 16s linear infinite} @keyframes b6{0%,24.36%{opacity:0}24.38%,93%{opacity:1}100%{opacity:0}} .b7{animation:b7 16s linear infinite} @keyframes b7{0%,27.49%{opacity:0}27.50%,93%{opacity:1}100%{opacity:0}} .b8{animation:b8 16s linear infinite} @keyframes b8{0%,30.62%{opacity:0}30.63%,93%{opacity:1}100%{opacity:0}} .b9{animation:b9 16s linear infinite} @keyframes b9{0%,33.74%{opacity:0}33.75%,93%{opacity:1}100%{opacity:0}} .b10{animation:b10 16s linear infinite} @keyframes b10{0%,36.87%{opacity:0}36.88%,93%{opacity:1}100%{opacity:0}} .b11{animation:b11 16s linear infinite} @keyframes b11{0%,39.99%{opacity:0}40.00%,93%{opacity:1}100%{opacity:0}} .b12{animation:b12 16s linear infinite} @keyframes b12{0%,43.12%{opacity:0}43.12%,93%{opacity:1}100%{opacity:0}} .b13{animation:b13 16s linear infinite} @keyframes b13{0%,46.24%{opacity:0}46.25%,93%{opacity:1}100%{opacity:0}}
-  .blink{animation:blink 1s steps(1) infinite}
-  @keyframes blink{50%{opacity:0}}
-  @media (prefers-reduced-motion: reduce){*{animation:none!important}}
-</style>
-<rect width="1000" height="316" rx="10" fill="#0A0A0A" stroke="#16C60C" stroke-opacity="0.5" stroke-width="1.5"/>
-<rect x="1" y="1" width="998" height="30" rx="9" fill="#121812"/><rect x="1" y="16" width="998" height="15" fill="#121812"/>
-<circle cx="22" cy="16" r="4.5" fill="#FF5F56" fill-opacity="0.85"/><circle cx="38" cy="16" r="4.5" fill="#FFBD2E" fill-opacity="0.85"/><circle cx="54" cy="16" r="4.5" fill="#27C93F" fill-opacity="0.85"/>
-<text x="500" y="20" font-size="11" fill="#5C6370" text-anchor="middle">skills.status - numaan@NumaansLaptop</text>
-<text x="28" y="62" font-size="15" xml:space="preserve"><tspan fill="#16C60C">numaan@NumaansLaptop</tspan><tspan fill="#CCCCCC">:</tspan><tspan fill="#3B78FF">~</tspan><tspan fill="#CCCCCC">$ ./skills --status</tspan></text>
-<text class="b0" x="28" y="98" font-size="15" xml:space="preserve"><tspan fill="#16C60C">[  OK  ]</tspan><tspan fill="#CCCCCC"> git </tspan><tspan fill="#5C6370">......................</tspan><tspan fill="#16C60C"> practiced</tspan></text>
-<text class="b1" x="28" y="120" font-size="15" xml:space="preserve"><tspan fill="#16C60C">[  OK  ]</tspan><tspan fill="#CCCCCC"> github </tspan><tspan fill="#5C6370">...................</tspan><tspan fill="#16C60C"> practiced</tspan></text>
-<text class="b2" x="28" y="142" font-size="15" xml:space="preserve"><tspan fill="#16C60C">[  OK  ]</tspan><tspan fill="#CCCCCC"> python </tspan><tspan fill="#5C6370">...................</tspan><tspan fill="#16C60C"> practiced</tspan></text>
-<text class="b3" x="28" y="164" font-size="15" xml:space="preserve"><tspan fill="#16C60C">[  OK  ]</tspan><tspan fill="#CCCCCC"> docker (basics) </tspan><tspan fill="#5C6370">..........</tspan><tspan fill="#16C60C"> practiced</tspan></text>
-<text class="b4" x="28" y="186" font-size="15" xml:space="preserve"><tspan fill="#00E5FF">[ BUSY ]</tspan><tspan fill="#CCCCCC"> linux + networking </tspan><tspan fill="#5C6370">.......</tspan><tspan fill="#00E5FF"> learning</tspan></text>
-<text class="b5" x="28" y="208" font-size="15" xml:space="preserve"><tspan fill="#00E5FF">[ BUSY ]</tspan><tspan fill="#CCCCCC"> bash scripting </tspan><tspan fill="#5C6370">...........</tspan><tspan fill="#00E5FF"> learning</tspan></text>
-<text class="b6" x="28" y="230" font-size="15" xml:space="preserve"><tspan fill="#00E5FF">[ BUSY ]</tspan><tspan fill="#CCCCCC"> docker (images, files) </tspan><tspan fill="#5C6370">...</tspan><tspan fill="#00E5FF"> learning</tspan></text>
-<text class="b7" x="28" y="252" font-size="15" xml:space="preserve"><tspan fill="#00E5FF">[ BUSY ]</tspan><tspan fill="#CCCCCC"> github actions </tspan><tspan fill="#5C6370">...........</tspan><tspan fill="#00E5FF"> learning</tspan></text>
-<text class="b8" x="520" y="98" font-size="15" xml:space="preserve"><tspan fill="#5C6370">[QUEUE ]</tspan><tspan fill="#CCCCCC"> aws </tspan><tspan fill="#5C6370">......................</tspan><tspan fill="#5C6370"> next up</tspan></text>
-<text class="b9" x="520" y="120" font-size="15" xml:space="preserve"><tspan fill="#5C6370">[QUEUE ]</tspan><tspan fill="#CCCCCC"> terraform </tspan><tspan fill="#5C6370">................</tspan><tspan fill="#5C6370"> next up</tspan></text>
-<text class="b10" x="520" y="142" font-size="15" xml:space="preserve"><tspan fill="#5C6370">[QUEUE ]</tspan><tspan fill="#CCCCCC"> ansible </tspan><tspan fill="#5C6370">..................</tspan><tspan fill="#5C6370"> next up</tspan></text>
-<text class="b11" x="520" y="164" font-size="15" xml:space="preserve"><tspan fill="#5C6370">[QUEUE ]</tspan><tspan fill="#CCCCCC"> kubernetes </tspan><tspan fill="#5C6370">...............</tspan><tspan fill="#5C6370"> next up</tspan></text>
-<text class="b12" x="520" y="186" font-size="15" xml:space="preserve"><tspan fill="#5C6370">[QUEUE ]</tspan><tspan fill="#CCCCCC"> jenkins </tspan><tspan fill="#5C6370">..................</tspan><tspan fill="#5C6370"> next up</tspan></text>
-<text class="b13" x="520" y="208" font-size="15" xml:space="preserve"><tspan fill="#5C6370">[QUEUE ]</tspan><tspan fill="#CCCCCC"> monitoring + logging </tspan><tspan fill="#5C6370">.....</tspan><tspan fill="#5C6370"> next up</tspan></text>
-<text x="28" y="268" font-size="12" fill="#5C6370"># OK = practiced   BUSY = learning now   QUEUE = next up</text>
-<text x="28" y="296" font-size="15" xml:space="preserve"><tspan fill="#16C60C">numaan@NumaansLaptop</tspan><tspan fill="#CCCCCC">:</tspan><tspan fill="#3B78FF">~</tspan><tspan fill="#CCCCCC">$</tspan><tspan class="blink" fill="#00FF41"> █</tspan></text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="1000" height="390" role="img" aria-label="Numaan Opai DevOps skills status terminal">
+  <title>Numaan Opai — DevOps Skills Status</title>
+  <defs>
+    <linearGradient id="trail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00FF41" stop-opacity="0"/>
+      <stop offset=".82" stop-color="#16C60C" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#CFFFD8" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00FF41" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00FF41" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#00FF41" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx=".5" cy=".45" r=".78">
+      <stop offset=".48" stop-color="#0A0A0A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0A0A" stop-opacity=".78"/>
+    </radialGradient>
+    <filter id="glow" x="-25%" y="-40%" width="150%" height="180%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      text {
+        font-family: 'Cascadia Mono','Consolas','DejaVu Sans Mono','Courier New',monospace;
+      }
+      .rain { animation: fall linear infinite; }
+      @keyframes fall {
+        from { transform: translateY(-210px); }
+        to { transform: translateY(410px); }
+      }
+      .scan { animation: sweep 6s linear infinite; }
+      @keyframes sweep {
+        from { transform: translateY(-40px); }
+        to { transform: translateY(410px); }
+      }
+      .blink { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .pulse { animation: pulse 1.7s ease-in-out infinite; }
+      @keyframes pulse { 50% { opacity: .3; } }
+      .glitch1 { animation: glitch1 7s infinite; opacity: 0; }
+      .glitch2 { animation: glitch2 7s infinite; opacity: 0; }
+      @keyframes glitch1 {
+        0%,91%,100% { opacity: 0; transform: translate(0,0); }
+        92% { opacity: .8; transform: translate(-2px,1px); }
+        94% { opacity: .8; transform: translate(2px,-1px); }
+        96% { opacity: 0; }
+      }
+      @keyframes glitch2 {
+        0%,92%,100% { opacity: 0; transform: translate(0,0); }
+        93% { opacity: .7; transform: translate(2px,-1px); }
+        95% { opacity: .7; transform: translate(-2px,1px); }
+        97% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion:reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="390" rx="10" fill="#0A0A0A"/>
+
+  <!-- Matrix rain -->
+  <g fill="#00FF41" opacity=".62" font-size="13">
+    <text class="rain" x="18" y="0" style="animation-duration:12s;animation-delay:-7s">#<tspan x="18" dy="16">1</tspan><tspan x="18" dy="16">A</tspan><tspan x="18" dy="16">;</tspan><tspan x="18" dy="16">0</tspan><tspan x="18" dy="16">F</tspan><tspan x="18" dy="16">}</tspan><tspan x="18" dy="16">C</tspan><tspan x="18" dy="16">7</tspan><tspan x="18" dy="16">/</tspan><tspan x="18" dy="16">E</tspan></text>
+    <text class="rain" x="49" y="0" style="animation-duration:9.5s;animation-delay:-3s">0<tspan x="49" dy="16">B</tspan><tspan x="49" dy="16">/</tspan><tspan x="49" dy="16">E</tspan><tspan x="49" dy="16">1</tspan><tspan x="49" dy="16">#</tspan><tspan x="49" dy="16">D</tspan><tspan x="49" dy="16">;</tspan><tspan x="49" dy="16">A</tspan></text>
+    <text class="rain" x="80" y="0" style="animation-duration:11s;animation-delay:-5s">C<tspan x="80" dy="16">}</tspan><tspan x="80" dy="16">4</tspan><tspan x="80" dy="16">A</tspan><tspan x="80" dy="16">0</tspan><tspan x="80" dy="16">/</tspan><tspan x="80" dy="16">F</tspan><tspan x="80" dy="16">#</tspan><tspan x="80" dy="16">2</tspan></text>
+    <text class="rain" x="111" y="0" style="animation-duration:13s;animation-delay:-9s">E<tspan x="111" dy="16">1</tspan><tspan x="111" dy="16">D</tspan><tspan x="111" dy="16">;</tspan><tspan x="111" dy="16">9</tspan><tspan x="111" dy="16">B</tspan><tspan x="111" dy="16">/</tspan><tspan x="111" dy="16">0</tspan></text>
+    <text class="rain" x="889" y="0" style="animation-duration:10s;animation-delay:-4s">A<tspan x="889" dy="16">#</tspan><tspan x="889" dy="16">0</tspan><tspan x="889" dy="16">C</tspan><tspan x="889" dy="16">}</tspan><tspan x="889" dy="16">1</tspan><tspan x="889" dy="16">E</tspan><tspan x="889" dy="16">/</tspan><tspan x="889" dy="16">D</tspan></text>
+    <text class="rain" x="920" y="0" style="animation-duration:12.5s;animation-delay:-8s">7<tspan x="920" dy="16">F</tspan><tspan x="920" dy="16">;</tspan><tspan x="920" dy="16">A</tspan><tspan x="920" dy="16">3</tspan><tspan x="920" dy="16">/</tspan><tspan x="920" dy="16">C</tspan><tspan x="920" dy="16">}</tspan></text>
+    <text class="rain" x="951" y="0" style="animation-duration:9s;animation-delay:-2s">D<tspan x="951" dy="16">0</tspan><tspan x="951" dy="16">E</tspan><tspan x="951" dy="16">#</tspan><tspan x="951" dy="16">B</tspan><tspan x="951" dy="16">;</tspan><tspan x="951" dy="16">1</tspan><tspan x="951" dy="16">A</tspan></text>
+    <text class="rain" x="982" y="0" style="animation-duration:11.8s;animation-delay:-6s">1<tspan x="982" dy="16">C</tspan><tspan x="982" dy="16">/</tspan><tspan x="982" dy="16">0</tspan><tspan x="982" dy="16">E</tspan><tspan x="982" dy="16">}</tspan><tspan x="982" dy="16">A</tspan></text>
+  </g>
+
+  <rect width="1000" height="390" rx="10" fill="url(#vignette)"/>
+
+  <!-- Neon frame -->
+  <rect x="1" y="1" width="998" height="388" rx="9"
+        fill="none" stroke="#16C60C" stroke-opacity=".65" stroke-width="1.5"/>
+  <g fill="none" stroke="#00FF41" stroke-width="2" stroke-linecap="round">
+    <path d="M12 34V12H34"/>
+    <path d="M966 12H988V34"/>
+    <path d="M12 356V378H34"/>
+    <path d="M966 378H988V356"/>
+  </g>
+
+  <!-- Header -->
+  <text x="48" y="29" font-size="12" fill="#16C60C">&gt; junior.devops --skills-status</text>
+  <circle class="pulse" cx="835" cy="25" r="4" fill="#00FF41"/>
+  <text x="848" y="29" font-size="12" fill="#16C60C">ALL_SYSTEMS_OK</text>
+
+  <rect class="scan" x="0" y="0" width="1000" height="42" fill="url(#scan)"/>
+
+  <!-- Terminal window -->
+  <rect x="135" y="43" width="730" height="304" rx="9"
+        fill="#080D0B" fill-opacity=".97" stroke="#24452F" stroke-width="1.2"/>
+  <rect x="135" y="43" width="730" height="29" rx="9" fill="#121812"/>
+  <rect x="135" y="59" width="730" height="13" fill="#121812"/>
+
+  <!-- Window controls -->
+  <circle cx="154" cy="57" r="4.5" fill="#FF5F56" fill-opacity=".9"/>
+  <circle cx="170" cy="57" r="4.5" fill="#FFBD2E" fill-opacity=".9"/>
+  <circle cx="186" cy="57" r="4.5" fill="#27C93F" fill-opacity=".9"/>
+
+  <text x="500" y="61" font-size="11" fill="#5C6370" text-anchor="middle">
+    numaan@NumaansLaptop: ~/skills
+  </text>
+
+  <!-- Terminal command -->
+  <text x="160" y="96" font-size="14">
+    <tspan fill="#16C60C">numaan@NumaansLaptop</tspan><tspan fill="#CCCCCC">:</tspan><tspan fill="#3B78FF">~/skills</tspan><tspan fill="#CCCCCC">$ ./verify-all --status</tspan>
+  </text>
+
+  <text x="160" y="119" font-size="11" fill="#5C6370">
+    SKILL INVENTORY <tspan fill="#16C60C">/</tspan> STATUS: <tspan fill="#16C60C">PRACTICED</tspan>
+  </text>
+  <line x1="160" y1="130" x2="840" y2="130" stroke="#26382B"/>
+
+  <!-- Skills: left column -->
+  <g font-size="13.5">
+    <text x="160" y="153"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Git</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="160" y="177"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> GitHub</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="160" y="201"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Python</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="160" y="225"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Linux + Networking</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="160" y="249"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Bash Scripting</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="160" y="273"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Docker + Dockerfiles</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="160" y="297"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> GitHub Actions + CI/CD</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+
+    <!-- Skills: right column -->
+    <text x="515" y="153"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> AWS</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="515" y="177"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Terraform</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="515" y="201"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Ansible</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="515" y="225"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Kubernetes</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="515" y="249"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Jenkins</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="515" y="273"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Monitoring + Logging</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+    <text x="515" y="297"><tspan fill="#00FF41" font-weight="700">[ OK ]</tspan><tspan fill="#D7E2D9"> Docker Images</tspan><tspan fill="#16C60C"> · practiced</tspan></text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="160" y1="312" x2="840" y2="312" stroke="#26382B"/>
+  <text x="160" y="333" font-size="11" fill="#5C6370">
+    # [ OK ] = practiced  •  DevOps / CloudOps learning inventory
+  </text>
+  <text x="500" y="371" font-size="12" fill="#5C6370" text-anchor="middle">
+    linux • docker • ci/cd • aws • automation • cloud infrastructure
+  </text>
+  <text x="160" y="333" font-size="13" xml:space="preserve" opacity="0">
+    <tspan fill="#16C60C">numaan@NumaansLaptop</tspan><tspan fill="#CCCCCC">:~$</tspan><tspan class="blink" fill="#00FF41"> █</tspan>
+  </text>
 </svg>
