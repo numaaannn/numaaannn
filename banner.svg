@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="banner">
+<defs><filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".035"/></pattern></defs>
+<style>text{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace}.cv{transform-box:fill-box;transform-origin:100% 50%}.cur,.bk{opacity:0}@keyframes vis{0%{opacity:1}99%{opacity:1}100%{opacity:0}}.f{opacity:0;animation:fi .35s ease-out forwards}@keyframes fi{to{opacity:1}}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}.pu{animation:pu 2s ease-in-out infinite}@keyframes dsh{to{stroke-dashoffset:-16}}.dash{stroke-dasharray:5 5;animation:dsh .8s linear infinite}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}.grow{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:gr .9s ease-out forwards}@keyframes k1{to{transform:scaleX(0)}}@keyframes m1{to{transform:translateX(259.2px)}}@keyframes k2{to{transform:scaleX(0)}}@keyframes m2{to{transform:translateX(409.2px)}}</style>
+<rect width="900" height="300" fill="#0a0a0a" rx="10"/>
+<rect x=".5" y=".5" width="899" height="299" rx="10" fill="#0d1410" stroke="#1f2a22"/>
+<rect x=".5" y=".5" width="899" height="34" rx="10" fill="#111a14"/>
+<rect x=".5" y="20" width="899" height="14.5" fill="#111a14"/>
+<line x1="1" y1="34.5" x2="899" y2="34.5" stroke="#1f2a22"/>
+<circle cx="22" cy="17.5" r="6" fill="#ff5f56"/><circle cx="42" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="62" cy="17.5" r="6" fill="#27c93f"/>
+<text x="450.0" y="22" font-size="12" fill="#5c6370" text-anchor="middle">numaan@NumaansLaptop: ~</text>
+<g class="f" style="animation-delay:0.20s">
+<text x="32.0" y="88.0" font-size="16" fill="#00ff41" font-weight="700" textLength="192.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >numaan@NumaansLaptop</text>
+<text x="224.0" y="88.0" font-size="16" fill="#cfd8d2" font-weight="400" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >:</text>
+<text x="233.6" y="88.0" font-size="16" fill="#00e5ff" font-weight="400" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~</text>
+<text x="243.2" y="88.0" font-size="16" fill="#00ff41" font-weight="700" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >$</text>
+</g>
+<text x="262.4" y="88.0" font-size="16" fill="#cfd8d2" font-weight="400" textLength="259.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >junior.devops --entry-level</text>
+<rect class="cv" x="260.4" y="72.0" width="265.2" height="22.4" fill="#0d1410" style="animation:k1 1.69s steps(27,end) 0.60s forwards"/>
+<rect class="cur" x="262.4" y="72.8" width="8.8" height="19.2" fill="#00ff41" style="animation:m1 1.69s steps(27,end) 0.60s forwards,vis 1.69s linear 0.60s forwards"/>
+<g class="f" style="animation-delay:2.49s">
+<rect class="pu" x="539.6" y="71" width="119.6" height="24" rx="12" fill="#00ff41" fill-opacity=".12" stroke="#00ff41"/>
+<text x="552.6" y="87.5" font-size="13" fill="#00ff41" font-weight="700" textLength="93.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >OPEN_TO_WORK</text>
+</g>
+<text x="32.0" y="184.0" font-size="62" fill="#00ff41" font-weight="800" textLength="409.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" filter="url(#glow)">NUMAAN OPAI</text>
+<rect class="cv" x="30.0" y="108.0" width="429.2" height="114.8" fill="#0d1410" style="animation:k2 1.57s steps(11,end) 2.79s forwards"/>
+<rect class="cur" x="32.0" y="125.1" width="34.1" height="74.4" fill="#00ff41" style="animation:m2 1.57s steps(11,end) 2.79s forwards,vis 1.57s linear 2.79s forwards"/>
+<g class="f" style="animation-delay:4.56s">
+<text x="32.0" y="226.0" font-size="17" fill="#00e5ff" font-weight="400" textLength="61.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >DevOps</text>
+<text x="93.2" y="226.0" font-size="17" fill="#5c6370" font-weight="400" textLength="30.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" > | </text>
+<text x="123.8" y="226.0" font-size="17" fill="#00e5ff" font-weight="400" textLength="51.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Linux</text>
+<text x="174.8" y="226.0" font-size="17" fill="#5c6370" font-weight="400" textLength="30.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" > | </text>
+<text x="205.4" y="226.0" font-size="17" fill="#00e5ff" font-weight="400" textLength="61.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Docker</text>
+<text x="266.6" y="226.0" font-size="17" fill="#5c6370" font-weight="400" textLength="30.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" > | </text>
+<text x="297.2" y="226.0" font-size="17" fill="#00e5ff" font-weight="400" textLength="51.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >CI/CD</text>
+<text x="348.2" y="226.0" font-size="17" fill="#5c6370" font-weight="400" textLength="30.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" > | </text>
+<text x="378.8" y="226.0" font-size="17" fill="#00e5ff" font-weight="400" textLength="204.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Cloud Infrastructure</text>
+</g>
+<g class="f" style="animation-delay:4.86s">
+<line x1="32" y1="248" x2="868" y2="248" stroke="#1f2a22"/>
+</g>
+<g class="f" style="animation-delay:4.96s">
+<text x="32.0" y="278.0" font-size="16" fill="#00ff41" font-weight="700" textLength="192.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >numaan@NumaansLaptop</text>
+<text x="224.0" y="278.0" font-size="16" fill="#cfd8d2" font-weight="400" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >:</text>
+<text x="233.6" y="278.0" font-size="16" fill="#00e5ff" font-weight="400" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >~</text>
+<text x="243.2" y="278.0" font-size="16" fill="#00ff41" font-weight="700" textLength="9.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >$</text>
+<text x="272.0" y="278.0" font-size="14" fill="#5c6370" font-weight="400" textLength="184.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" ># ready for deployment</text>
+</g>
+<rect class="bk" x="262.4" y="262.8" width="8.8" height="19.2" fill="#00ff41" style="animation:bl 1.1s step-end 4.96s infinite"/>
+<rect width="900" height="300" fill="url(#scan)" rx="10" pointer-events="none"/>
+</svg>

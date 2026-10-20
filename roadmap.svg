@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="358" viewBox="0 0 900 358" role="img" aria-label="roadmap">
+<defs><filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".035"/></pattern></defs>
+<style>text{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace}.cv{transform-box:fill-box;transform-origin:100% 50%}.cur,.bk{opacity:0}@keyframes vis{0%{opacity:1}99%{opacity:1}100%{opacity:0}}.f{opacity:0;animation:fi .35s ease-out forwards}@keyframes fi{to{opacity:1}}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}.pu{animation:pu 2s ease-in-out infinite}@keyframes dsh{to{stroke-dashoffset:-16}}.dash{stroke-dasharray:5 5;animation:dsh .8s linear infinite}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}.grow{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:gr .9s ease-out forwards}</style>
+<rect width="900" height="358" fill="#0a0a0a" rx="10"/>
+<rect x=".5" y=".5" width="899" height="357" rx="10" fill="#0d1410" stroke="#1f2a22"/>
+<rect x=".5" y=".5" width="899" height="34" rx="10" fill="#111a14"/>
+<rect x=".5" y="20" width="899" height="14.5" fill="#111a14"/>
+<line x1="1" y1="34.5" x2="899" y2="34.5" stroke="#1f2a22"/>
+<circle cx="22" cy="17.5" r="6" fill="#ff5f56"/><circle cx="42" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="62" cy="17.5" r="6" fill="#27c93f"/>
+<text x="450.0" y="22" font-size="12" fill="#5c6370" text-anchor="middle">roadmap.md  —  the order I am learning in, not mastered skills</text>
+<g class="f" style="animation-delay:0.30s">
+<text x="30.0" y="72.0" font-size="12" fill="#00ff41" font-weight="700" textLength="151.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >STAGE 1 - FOUNDATIONS</text>
+</g>
+<g class="f" style="animation-delay:0.45s">
+<rect x="30.0" y="84" width="185.2" height="36" rx="7" fill="#00ff41" fill-opacity=".09" stroke="#00ff41" stroke-opacity=".7"/>
+<text x="47.0" y="107.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="151.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Linux &amp; Networking</text>
+</g>
+<g class="f" style="animation-delay:0.60s">
+<line class="dash" x1="223.2" y1="102" x2="257.2" y2="102" stroke="#00ff41" stroke-width="2"/>
+<polygon points="259.2,102 251.2,97 251.2,107" fill="#00ff41"/>
+</g>
+<g class="f" style="animation-delay:0.70s">
+<rect x="267.2" y="84" width="134.8" height="36" rx="7" fill="#00ff41" fill-opacity=".09" stroke="#00ff41" stroke-opacity=".7"/>
+<text x="284.2" y="107.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Git &amp; GitHub</text>
+</g>
+<g class="f" style="animation-delay:0.85s">
+<line class="dash" x1="410.0" y1="102" x2="444.0" y2="102" stroke="#00ff41" stroke-width="2"/>
+<polygon points="446.0,102 438.0,97 438.0,107" fill="#00ff41"/>
+</g>
+<g class="f" style="animation-delay:0.95s">
+<rect x="454.0" y="84" width="235.6" height="36" rx="7" fill="#00ff41" fill-opacity=".09" stroke="#00ff41" stroke-opacity=".7"/>
+<text x="471.0" y="107.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="201.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Bash / Python Automation</text>
+</g>
+<g class="f" style="animation-delay:1.05s">
+<text x="30.0" y="146.0" font-size="12" fill="#00e5ff" font-weight="700" textLength="158.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >STAGE 2 - BUILD &amp; SHIP</text>
+</g>
+<g class="f" style="animation-delay:1.20s">
+<rect x="30.0" y="158" width="193.6" height="36" rx="7" fill="#00e5ff" fill-opacity=".09" stroke="#00e5ff" stroke-opacity=".7"/>
+<text x="47.0" y="181.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="159.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Docker &amp; Containers</text>
+</g>
+<g class="f" style="animation-delay:1.35s">
+<line class="dash" x1="231.6" y1="176" x2="265.6" y2="176" stroke="#00e5ff" stroke-width="2"/>
+<polygon points="267.6,176 259.6,171 259.6,181" fill="#00e5ff"/>
+</g>
+<g class="f" style="animation-delay:1.45s">
+<rect x="275.6" y="158" width="160.0" height="36" rx="7" fill="#00e5ff" fill-opacity=".09" stroke="#00e5ff" stroke-opacity=".7"/>
+<text x="292.6" y="181.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="126.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >CI/CD Pipelines</text>
+</g>
+<g class="f" style="animation-delay:1.55s">
+<text x="30.0" y="220.0" font-size="12" fill="#ffd866" font-weight="700" textLength="165.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >STAGE 3 - CLOUD &amp; SCALE</text>
+</g>
+<g class="f" style="animation-delay:1.70s">
+<rect x="30.0" y="232" width="59.2" height="36" rx="7" fill="#ffd866" fill-opacity=".09" stroke="#ffd866" stroke-opacity=".7"/>
+<text x="47.0" y="255.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >AWS</text>
+</g>
+<g class="f" style="animation-delay:1.85s">
+<line class="dash" x1="97.2" y1="250" x2="131.2" y2="250" stroke="#ffd866" stroke-width="2"/>
+<polygon points="133.2,250 125.2,245 125.2,255" fill="#ffd866"/>
+</g>
+<g class="f" style="animation-delay:1.95s">
+<rect x="141.2" y="232" width="193.6" height="36" rx="7" fill="#ffd866" fill-opacity=".09" stroke="#ffd866" stroke-opacity=".7"/>
+<text x="158.2" y="255.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="159.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Terraform &amp; Ansible</text>
+</g>
+<g class="f" style="animation-delay:2.10s">
+<line class="dash" x1="342.8" y1="250" x2="376.8" y2="250" stroke="#ffd866" stroke-width="2"/>
+<polygon points="378.8,250 370.8,245 370.8,255" fill="#ffd866"/>
+</g>
+<g class="f" style="animation-delay:2.20s">
+<rect x="386.8" y="232" width="118.0" height="36" rx="7" fill="#ffd866" fill-opacity=".09" stroke="#ffd866" stroke-opacity=".7"/>
+<text x="403.8" y="255.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Kubernetes</text>
+</g>
+<g class="f" style="animation-delay:2.30s">
+<text x="30.0" y="294.0" font-size="12" fill="#8b95a1" font-weight="700" textLength="28.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >THEN</text>
+</g>
+<g class="f" style="animation-delay:2.45s">
+<rect x="30.0" y="306" width="344.8" height="36" rx="7" fill="#8b95a1" fill-opacity=".09" stroke="#8b95a1" stroke-opacity=".7"/>
+<text x="47.0" y="329.0" font-size="14" fill="#cfd8d2" font-weight="400" textLength="310.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Monitoring, Logging &amp; Troubleshooting</text>
+</g>
+<rect width="900" height="358" fill="url(#scan)" rx="10" pointer-events="none"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-label="h05">
+<defs><filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".035"/></pattern></defs>
+<style>text{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace}.cv{transform-box:fill-box;transform-origin:100% 50%}.cur,.bk{opacity:0}@keyframes vis{0%{opacity:1}99%{opacity:1}100%{opacity:0}}.f{opacity:0;animation:fi .35s ease-out forwards}@keyframes fi{to{opacity:1}}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}.pu{animation:pu 2s ease-in-out infinite}@keyframes dsh{to{stroke-dashoffset:-16}}.dash{stroke-dasharray:5 5;animation:dsh .8s linear infinite}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}.grow{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:gr .9s ease-out forwards}@keyframes k1{to{transform:scaleX(0)}}@keyframes m1{to{transform:translateX(264.0px)}}</style>
+<rect width="900" height="54" fill="#0a0a0a" rx="10"/>
+<text x="14" y="34" font-size="22" fill="#00ff41" font-weight="700" textLength="13.2" lengthAdjust="spacingAndGlyphs">&gt;</text>
+<text x="40.0" y="34.0" font-size="22" fill="#00ff41" font-weight="700" textLength="264.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" filter="url(#glow)">05_featured_projects</text>
+<rect class="cv" x="38.0" y="2.0" width="280.0" height="50.8" fill="#0a0a0a" style="animation:k1 0.91s steps(20,end) 0.20s forwards"/>
+<rect class="cur" x="40.0" y="13.1" width="12.1" height="26.4" fill="#00ff41" style="animation:m1 0.91s steps(20,end) 0.20s forwards,vis 0.91s linear 0.20s forwards"/>
+<g class="f" style="animation-delay:1.21s">
+<text x="322.0" y="33.0" font-size="13" fill="#5c6370" font-weight="400" textLength="132.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >// planned builds</text>
+</g>
+<rect class="grow" x="14" y="46" width="872" height="2" rx="1" fill="#00ff41" fill-opacity=".55" style="animation-delay:1.11s"/>
+<rect width="900" height="54" fill="url(#scan)" rx="10" pointer-events="none"/>
+</svg>
