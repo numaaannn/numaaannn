@@ -64,50 +64,13 @@
 
 <br>
 
-![06_command_reference](h06.svg)
-
-```bash
-$ docker ps                  # list running containers
-$ docker logs <container>    # read a container's logs
-$ systemctl status nginx     # check whether a service is running
-$ ss -lntp                   # listening TCP ports and their processes
-$ git status                 # changed and staged files
-```
-
-<details>
-<summary><b>lab log: docker basics on WSL Ubuntu</b> (real session from my own machine, click to expand)</summary>
-
-```console
-numaan@ubuntu:~/Linux$ docker run -it ubuntu bash
-root@75d6eda7b846:/# docker ps -a
-bash: docker: command not found
-root@75d6eda7b846:/# exit
-
-numaan@ubuntu:~/Linux$ docker start -ai wizardly_heisenberg
-root@76d4545a1770:/# cat /etc/os-release
-PRETTY_NAME="Ubuntu 26.04.1 LTS"
-VERSION_ID="26.04"
-
-numaan@ubuntu:~/Linux$ docker run -dit --name <name> ubuntu
-484025e1c97c696b171c9e449b90169e000b07bba9ef92067cb3db3bfeadef24
-numaan@ubuntu:~/Linux$ docker ps
-CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS
-484025e1c97c   ubuntu    "/bin/bash"   2 minutes ago   Up 2 minutes
-```
-
-**what this taught me:** the docker CLI runs on the host, so `docker: command not found` inside the container is expected. A container stops when its main process exits, and `docker start -ai` reattaches. `-it` gives an interactive shell; `-dit` keeps it running in the background. Each image ships its own minimal userland.
-
-</details>
-
-<br>
-
 ![08_contact](h08.svg)
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-numaaannn-0a0a0a?style=for-the-badge&logo=github&logoColor=00ff41)](https://github.com/numaaannn)
-[![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00e5ff)](https://numaansportfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-0a0a0a?style=for-the-badge&logo=gmail&logoColor=ffd866)](mailto:numaan.y.opai@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-numaaannn-0a0a0a?style=for-the-badge&labelColor=0a0a0a&logo=github&logoColor=00ff41)](https://github.com/numaaannn)
+[![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio-0a0a0a?style=for-the-badge&labelColor=0a0a0a&logo=vercel&logoColor=00e5ff)](https://numaansportfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-0a0a0a?style=for-the-badge&labelColor=0a0a0a&logo=gmail&logoColor=ffd866)](mailto:numaan.y.opai@gmail.com)
 
 ![exit](footer.svg)
 
