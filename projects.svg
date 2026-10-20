@@ -1,66 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="448" viewBox="0 0 900 448" role="img" aria-label="projects">
-<defs><filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".035"/></pattern></defs>
-<style>text{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace}.cv{transform-box:fill-box;transform-origin:100% 50%}.cur,.bk{opacity:0}@keyframes vis{0%{opacity:1}99%{opacity:1}100%{opacity:0}}.f{opacity:0;animation:fi .35s ease-out forwards}@keyframes fi{to{opacity:1}}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}.pu{animation:pu 2s ease-in-out infinite}@keyframes dsh{to{stroke-dashoffset:-16}}.dash{stroke-dasharray:5 5;animation:dsh .8s linear infinite}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}.grow{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:gr .9s ease-out forwards}</style>
+<defs><filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".035"/></pattern><pattern id="code" width="73" height="96" patternUnits="userSpaceOnUse"><text x="8" y="14" fill="#00ff41" fill-opacity=".12" font-size="9" font-family="monospace">0</text><text x="8" y="29" fill="#00ff41" fill-opacity=".09" font-size="9" font-family="monospace">1</text><text x="8" y="44" fill="#16c60c" fill-opacity=".09" font-size="9" font-family="monospace">/</text><text x="42" y="62" fill="#00e5ff" fill-opacity=".08" font-size="9" font-family="monospace">1</text><text x="42" y="77" fill="#00ff41" fill-opacity=".1" font-size="9" font-family="monospace">0</text><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="0 96" dur="3.2s" repeatCount="indefinite"/></pattern></defs>
+<style>text{font-family:'Cascadia Mono','Consolas','DejaVu Sans Mono','Courier New',monospace}.cv{transform-box:fill-box;transform-origin:100% 50%}.cur,.bk{opacity:0}@keyframes vis{0%{opacity:1}99%{opacity:1}100%{opacity:0}}.f{opacity:0;animation:fi .35s ease-out forwards}@keyframes fi{to{opacity:1}}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}.pu{animation:pu 2s ease-in-out infinite}@keyframes dsh{to{stroke-dashoffset:-16}}.dash{stroke-dasharray:5 5;animation:dsh .8s linear infinite}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}.grow{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:gr .9s ease-out forwards}</style>
 <rect width="900" height="448" fill="#0a0a0a" rx="10"/>
-<rect x=".5" y=".5" width="899" height="447" rx="10" fill="#0d1410" stroke="#1f2a22"/>
-<rect x=".5" y=".5" width="899" height="34" rx="10" fill="#111a14"/>
-<rect x=".5" y="20" width="899" height="14.5" fill="#111a14"/>
-<line x1="1" y1="34.5" x2="899" y2="34.5" stroke="#1f2a22"/>
+<rect x=".5" y=".5" width="899" height="447" rx="10" fill="#0A0A0A" stroke="#1F2A22"/>
+<rect x="1" y="1" width="898" height="446" fill="url(#code)" pointer-events="none"/>
+<rect x=".5" y=".5" width="899" height="34" rx="10" fill="#121812"/>
+<rect x=".5" y="20" width="899" height="14.5" fill="#121812"/>
+<line x1="1" y1="34.5" x2="899" y2="34.5" stroke="#1F2A22"/>
 <circle cx="22" cy="17.5" r="6" fill="#ff5f56"/><circle cx="42" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="62" cy="17.5" r="6" fill="#27c93f"/>
-<text x="450.0" y="22" font-size="12" fill="#5c6370" text-anchor="middle">projects/  —  planned builds; repo links added once published</text>
+<text x="450.0" y="22" font-size="12" fill="#5C6370" text-anchor="middle">projects/  —  planned builds; repo links added once published</text>
 <g class="f" style="animation-delay:0.30s">
-<rect x="30" y="54" width="412" height="178" rx="8" fill="#0a110d" stroke="#1f2a22"/>
+<rect x="30" y="54" width="412" height="178" rx="8" fill="#0A0A0A" stroke="#1F2A22"/>
 <rect x="30" y="54" width="412" height="3" rx="1.5" fill="#00ff41" fill-opacity=".7"/>
-<text x="48.0" y="88.0" font-size="13" fill="#5c6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >01</text>
+<text x="48.0" y="88.0" font-size="13" fill="#5C6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >01</text>
 <text x="76.0" y="88.0" font-size="16" fill="#00ff41" font-weight="700" textLength="211.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Dockerized Application</text>
 <rect class="pu" x="368.0" y="70" width="60.0" height="22" rx="11" fill="#ffd866" fill-opacity=".1" stroke="#ffd866" stroke-opacity=".7"/>
 <text x="377.0" y="85.0" font-size="10" fill="#ffd866" font-weight="700" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >PLANNED</text>
-<text x="48.0" y="120.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="343.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Package a sample app into an image; document</text>
-<text x="48.0" y="140.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="343.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >build, run, ports, logs and troubleshooting.</text>
+<text x="48.0" y="120.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="343.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Package a sample app into an image; document</text>
+<text x="48.0" y="140.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="343.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >build, run, ports, logs and troubleshooting.</text>
 <rect x="48.0" y="190" width="63.2" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>
 <text x="58.0" y="207.0" font-size="12" fill="#00e5ff" font-weight="400" textLength="43.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Docker</text>
 <rect x="119.2" y="190" width="56.0" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>
 <text x="129.2" y="207.0" font-size="12" fill="#00e5ff" font-weight="400" textLength="36.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Linux</text>
 </g>
 <g class="f" style="animation-delay:0.60s">
-<rect x="458" y="54" width="412" height="178" rx="8" fill="#0a110d" stroke="#1f2a22"/>
+<rect x="458" y="54" width="412" height="178" rx="8" fill="#0A0A0A" stroke="#1F2A22"/>
 <rect x="458" y="54" width="412" height="3" rx="1.5" fill="#00ff41" fill-opacity=".7"/>
-<text x="476.0" y="88.0" font-size="13" fill="#5c6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >02</text>
+<text x="476.0" y="88.0" font-size="13" fill="#5C6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >02</text>
 <text x="504.0" y="88.0" font-size="16" fill="#00ff41" font-weight="700" textLength="134.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >CI/CD Pipeline</text>
 <rect class="pu" x="796.0" y="70" width="60.0" height="22" rx="11" fill="#ffd866" fill-opacity=".1" stroke="#ffd866" stroke-opacity=".7"/>
 <text x="805.0" y="85.0" font-size="10" fill="#ffd866" font-weight="700" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >PLANNED</text>
-<text x="476.0" y="120.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="351.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >GitHub Actions workflow that lints, tests and</text>
-<text x="476.0" y="140.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="358.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >builds on every push. Deployment is added only</text>
-<text x="476.0" y="160.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="132.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >once implemented.</text>
+<text x="476.0" y="120.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="351.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >GitHub Actions workflow that lints, tests and</text>
+<text x="476.0" y="140.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="358.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >builds on every push. Deployment is added only</text>
+<text x="476.0" y="160.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="132.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >once implemented.</text>
 <rect x="476.0" y="190" width="120.8" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>
 <text x="486.0" y="207.0" font-size="12" fill="#00e5ff" font-weight="400" textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >GitHub Actions</text>
 <rect x="604.8" y="190" width="41.6" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>
 <text x="614.8" y="207.0" font-size="12" fill="#00e5ff" font-weight="400" textLength="21.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Git</text>
 </g>
 <g class="f" style="animation-delay:0.90s">
-<rect x="30" y="248" width="412" height="178" rx="8" fill="#0a110d" stroke="#1f2a22"/>
+<rect x="30" y="248" width="412" height="178" rx="8" fill="#0A0A0A" stroke="#1F2A22"/>
 <rect x="30" y="248" width="412" height="3" rx="1.5" fill="#00ff41" fill-opacity=".7"/>
-<text x="48.0" y="282.0" font-size="13" fill="#5c6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >03</text>
+<text x="48.0" y="282.0" font-size="13" fill="#5C6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >03</text>
 <text x="76.0" y="282.0" font-size="16" fill="#00ff41" font-weight="700" textLength="192.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Linux Server Monitor</text>
 <rect class="pu" x="368.0" y="264" width="60.0" height="22" rx="11" fill="#ffd866" fill-opacity=".1" stroke="#ffd866" stroke-opacity=".7"/>
 <text x="377.0" y="279.0" font-size="10" fill="#ffd866" font-weight="700" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >PLANNED</text>
-<text x="48.0" y="314.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Bash script checking disk, memory, CPU and</text>
-<text x="48.0" y="334.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="335.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >service health, with logging and meaningful</text>
-<text x="48.0" y="354.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="85.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >exit codes.</text>
+<text x="48.0" y="314.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Bash script checking disk, memory, CPU and</text>
+<text x="48.0" y="334.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="335.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >service health, with logging and meaningful</text>
+<text x="48.0" y="354.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="85.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >exit codes.</text>
 <rect x="48.0" y="384" width="48.8" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>
 <text x="58.0" y="401.0" font-size="12" fill="#00e5ff" font-weight="400" textLength="28.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Bash</text>
 <rect x="104.8" y="384" width="56.0" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>
 <text x="114.8" y="401.0" font-size="12" fill="#00e5ff" font-weight="400" textLength="36.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Linux</text>
 </g>
 <g class="f" style="animation-delay:1.20s">
-<rect x="458" y="248" width="412" height="178" rx="8" fill="#0a110d" stroke="#1f2a22"/>
+<rect x="458" y="248" width="412" height="178" rx="8" fill="#0A0A0A" stroke="#1F2A22"/>
 <rect x="458" y="248" width="412" height="3" rx="1.5" fill="#00ff41" fill-opacity=".7"/>
-<text x="476.0" y="282.0" font-size="13" fill="#5c6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >04</text>
+<text x="476.0" y="282.0" font-size="13" fill="#5C6370" font-weight="400" textLength="15.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >04</text>
 <text x="504.0" y="282.0" font-size="16" fill="#00ff41" font-weight="700" textLength="153.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Cloud Deployment</text>
 <rect class="pu" x="796.0" y="264" width="60.0" height="22" rx="11" fill="#ffd866" fill-opacity=".1" stroke="#ffd866" stroke-opacity=".7"/>
 <text x="805.0" y="279.0" font-size="10" fill="#ffd866" font-weight="700" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >PLANNED</text>
-<text x="476.0" y="314.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="280.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Deploy an app on AWS with documented</text>
-<text x="476.0" y="334.0" font-size="13" fill="#cfd8d2" font-weight="400" textLength="351.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >architecture, networking, security and steps.</text>
+<text x="476.0" y="314.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="280.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Deploy an app on AWS with documented</text>
+<text x="476.0" y="334.0" font-size="13" fill="#CCCCCC" font-weight="400" textLength="351.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >architecture, networking, security and steps.</text>
 <rect x="476.0" y="384" width="41.6" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>
 <text x="486.0" y="401.0" font-size="12" fill="#00e5ff" font-weight="400" textLength="21.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >AWS</text>
 <rect x="525.6" y="384" width="63.2" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".5"/>

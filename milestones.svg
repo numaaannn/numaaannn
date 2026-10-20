@@ -1,44 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="308" viewBox="0 0 900 308" role="img" aria-label="milestones">
-<defs><filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".035"/></pattern></defs>
-<style>text{font-family:'JetBrains Mono','Fira Code','SF Mono',Menlo,Consolas,'DejaVu Sans Mono','Courier New',monospace}.cv{transform-box:fill-box;transform-origin:100% 50%}.cur,.bk{opacity:0}@keyframes vis{0%{opacity:1}99%{opacity:1}100%{opacity:0}}.f{opacity:0;animation:fi .35s ease-out forwards}@keyframes fi{to{opacity:1}}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}.pu{animation:pu 2s ease-in-out infinite}@keyframes dsh{to{stroke-dashoffset:-16}}.dash{stroke-dasharray:5 5;animation:dsh .8s linear infinite}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}.grow{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:gr .9s ease-out forwards}</style>
+<defs><filter id="glow" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".035"/></pattern><pattern id="code" width="73" height="96" patternUnits="userSpaceOnUse"><text x="8" y="14" fill="#00ff41" fill-opacity=".12" font-size="9" font-family="monospace">0</text><text x="8" y="29" fill="#00ff41" fill-opacity=".09" font-size="9" font-family="monospace">1</text><text x="8" y="44" fill="#16c60c" fill-opacity=".09" font-size="9" font-family="monospace">/</text><text x="42" y="62" fill="#00e5ff" fill-opacity=".08" font-size="9" font-family="monospace">1</text><text x="42" y="77" fill="#00ff41" fill-opacity=".1" font-size="9" font-family="monospace">0</text><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="0 96" dur="3.2s" repeatCount="indefinite"/></pattern></defs>
+<style>text{font-family:'Cascadia Mono','Consolas','DejaVu Sans Mono','Courier New',monospace}.cv{transform-box:fill-box;transform-origin:100% 50%}.cur,.bk{opacity:0}@keyframes vis{0%{opacity:1}99%{opacity:1}100%{opacity:0}}.f{opacity:0;animation:fi .35s ease-out forwards}@keyframes fi{to{opacity:1}}@keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}@keyframes pu{0%,100%{opacity:1}50%{opacity:.3}}.pu{animation:pu 2s ease-in-out infinite}@keyframes dsh{to{stroke-dashoffset:-16}}.dash{stroke-dasharray:5 5;animation:dsh .8s linear infinite}@keyframes gr{from{transform:scaleX(0)}to{transform:scaleX(1)}}.grow{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:gr .9s ease-out forwards}</style>
 <rect width="900" height="308" fill="#0a0a0a" rx="10"/>
-<rect x=".5" y=".5" width="899" height="307" rx="10" fill="#0d1410" stroke="#1f2a22"/>
-<rect x=".5" y=".5" width="899" height="34" rx="10" fill="#111a14"/>
-<rect x=".5" y="20" width="899" height="14.5" fill="#111a14"/>
-<line x1="1" y1="34.5" x2="899" y2="34.5" stroke="#1f2a22"/>
+<rect x=".5" y=".5" width="899" height="307" rx="10" fill="#0A0A0A" stroke="#1F2A22"/>
+<rect x="1" y="1" width="898" height="306" fill="url(#code)" pointer-events="none"/>
+<rect x=".5" y=".5" width="899" height="34" rx="10" fill="#121812"/>
+<rect x=".5" y="20" width="899" height="14.5" fill="#121812"/>
+<line x1="1" y1="34.5" x2="899" y2="34.5" stroke="#1F2A22"/>
 <circle cx="22" cy="17.5" r="6" fill="#ff5f56"/><circle cx="42" cy="17.5" r="6" fill="#ffbd2e"/><circle cx="62" cy="17.5" r="6" fill="#27c93f"/>
-<text x="450.0" y="22" font-size="12" fill="#5c6370" text-anchor="middle">todo.md  —  learning milestones</text>
+<text x="450.0" y="22" font-size="12" fill="#5C6370" text-anchor="middle">todo.md  —  learning milestones</text>
 <g class="f" style="animation-delay:0.30s">
-<text x="30.0" y="74.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="74.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="432.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Strengthen Linux troubleshooting and system logs</text>
+<text x="30.0" y="74.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="74.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="432.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Strengthen Linux troubleshooting and system logs</text>
 </g>
 <g class="f" style="animation-delay:0.52s">
-<text x="30.0" y="102.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="102.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="297.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Complete Bash scripting exercises</text>
+<text x="30.0" y="102.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="102.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="297.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Complete Bash scripting exercises</text>
 </g>
 <g class="f" style="animation-delay:0.74s">
-<text x="30.0" y="130.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="130.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="315.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Build and document a Docker project</text>
+<text x="30.0" y="130.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="130.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="315.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Build and document a Docker project</text>
 </g>
 <g class="f" style="animation-delay:0.96s">
-<text x="30.0" y="158.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="158.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="279.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Create a working CI/CD pipeline</text>
+<text x="30.0" y="158.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="158.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="279.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Create a working CI/CD pipeline</text>
 </g>
 <g class="f" style="animation-delay:1.18s">
-<text x="30.0" y="186.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="186.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="396.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Deploy an application to a cloud environment</text>
+<text x="30.0" y="186.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="186.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="396.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Deploy an application to a cloud environment</text>
 </g>
 <g class="f" style="animation-delay:1.40s">
-<text x="30.0" y="214.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="214.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="360.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Learn Infrastructure as Code (Terraform)</text>
+<text x="30.0" y="214.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="214.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="360.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Learn Infrastructure as Code (Terraform)</text>
 </g>
 <g class="f" style="animation-delay:1.62s">
-<text x="30.0" y="242.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="242.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="288.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Practice Kubernetes fundamentals</text>
+<text x="30.0" y="242.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="242.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="288.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Practice Kubernetes fundamentals</text>
 </g>
 <g class="f" style="animation-delay:1.84s">
-<text x="30.0" y="270.0" font-size="15" fill="#5c6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
-<text x="66.0" y="270.0" font-size="15" fill="#cfd8d2" font-weight="400" textLength="369.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Build a complete DevOps portfolio project</text>
+<text x="30.0" y="270.0" font-size="15" fill="#5C6370" font-weight="700" textLength="27.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >[ ]</text>
+<text x="66.0" y="270.0" font-size="15" fill="#CCCCCC" font-weight="400" textLength="369.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve" >Build a complete DevOps portfolio project</text>
 </g>
 <rect width="900" height="308" fill="url(#scan)" rx="10" pointer-events="none"/>
 </svg>
