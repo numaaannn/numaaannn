@@ -30,7 +30,7 @@ goal:       Reliable, repeatable deployment workflows - from commit to running s
 status:     Open to entry-level DevOps, CloudOps and infrastructure roles
 ```
 
-I am building DevOps skills from the ground up: Linux and networking first, then automation, containers, CI/CD and cloud. Every tool below is labelled by how far along I actually am with it.
+I come from a data science and web development background, and I am now building DevOps skills from the ground up: Linux and networking first, then automation, containers, CI/CD and cloud. Every tool below is labelled by how far along I actually am with it.
 
 <br/>
 
@@ -84,7 +84,33 @@ flowchart LR
 
 <br/>
 
-## `04` Featured Projects
+## `04` Background: Data Science & Web Development
+
+Before moving toward DevOps, I worked in data science and web development. That background carries over: I write Python, build applications, and want to be the person who gets them deployed reliably.
+
+| Experience | Where |
+| :-- | :-- |
+| Data Science Apprenticeship | Vigo Technoworld Pvt. Ltd. |
+| Web Development Internship | Smart Software Solutions |
+
+| Area | Tools I have used |
+| :-- | :-- |
+| **Data Science & ML** | <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,pandas,numpy,jupyter&theme=dark" alt="Python, TensorFlow, scikit-learn, Pandas, NumPy, Jupyter" align="center" /> |
+| **Web** | <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,js,html,css,tailwind&theme=dark" alt="React, Next.js, Node.js, JavaScript, HTML, CSS, Tailwind" align="center" /> |
+| **Mobile** | <img src="https://skillicons.dev/icons?i=flutter,dart,java&theme=dark" alt="Flutter, Dart, Java" align="center" /> |
+| **Databases** | <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres&theme=dark" alt="MongoDB, MySQL, PostgreSQL" align="center" /> |
+
+**Earlier projects**
+
+| Project | What it is | Stack |
+| :-- | :-- | :-- |
+| **Customer Segmentation & Recommendation System** | MCA thesis: K-Means clustering (6 segments) with PCA for visualization, deployed publicly on Streamlit Cloud. | `Python` `scikit-learn` `Streamlit` |
+| **Jewellery Store with AI Chatbot** | Online store deployed on Vercel with an AI chatbot. | `Next.js` `Vercel` |
+| **AI Interview Engine** *(in progress)* | FastAPI multi-agent system with question, evaluation, memory and scoring agents. | `FastAPI` `Redis` `ChromaDB` |
+
+<!-- [REPLACE] Add live-demo and repo links in the Project cells, e.g. **[Customer Segmentation](https://YOUR-STREAMLIT-URL)** -->
+
+## `05` Featured Projects
 
 Each project below is a planned build with a defined scope. Cards get a repository link once the work is published.
 
@@ -101,7 +127,7 @@ More of my earlier work, including web and data projects: **[numaansportfolio.ve
 
 <br/>
 
-## `05` DevOps Command Reference
+## `06` DevOps Command Reference
 
 Commands I am practicing. This is a study reference, not output from real infrastructure.
 
@@ -123,7 +149,7 @@ git status                 # see changed and staged files
 
 <br/>
 
-## `06` GitHub Activity
+## `07` GitHub Activity
 
 <div align="center">
 
@@ -136,7 +162,7 @@ git status                 # see changed and staged files
 
 <br/>
 
-## `07` Learning Milestones
+## `08` Learning Milestones
 
 - [ ] Strengthen Linux troubleshooting and system logs
 - [ ] Complete Bash scripting exercises
@@ -149,7 +175,7 @@ git status                 # see changed and staged files
 
 <br/>
 
-## `08` Contact
+## `09` Contact
 
 ```bash
 $ ./open_to_work.sh
