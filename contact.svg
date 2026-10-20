@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="82" viewBox="0 0 900 82" role="img" aria-labelledby="title desc">
+  <title id="title">Contact Numaan</title>
+  <desc id="desc">Dark contact panel with links to GitHub, portfolio, and email.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff41" stop-opacity=".75"/>
+      <stop offset=".5" stop-color="#26352b"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity=".75"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="82" rx="10" fill="#0a0a0a"/>
+  <rect x=".75" y=".75" width="898.5" height="80.5" rx="9.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M300 12V70M600 12V70" stroke="#26352b"/>
+  <g font-family="'Cascadia Mono',Consolas,monospace">
+    <a href="https://github.com/numaaannn" aria-label="Visit GitHub profile">
+      <path d="M29 20H278V62H29Z" fill="transparent"/>
+      <circle cx="55" cy="41" r="14" fill="#101a13" stroke="#00ff41" stroke-opacity=".55"/>
+      <text x="55" y="45" text-anchor="middle" fill="#00ff41" font-size="10" font-weight="700">GH</text>
+      <text x="80" y="37" fill="#7e9384" font-size="9" letter-spacing="1.8">SOURCE</text>
+      <text x="80" y="53" fill="#dcffe5" font-size="14" font-weight="700">GITHUB</text>
+      <path d="M258 38L264 41L258 44" fill="none" stroke="#00ff41" stroke-width="1.5"/>
+    </a>
+    <a href="https://numaansportfolio.vercel.app/" aria-label="Visit portfolio">
+      <path d="M310 20H578V62H310Z" fill="transparent"/>
+      <circle cx="337" cy="41" r="14" fill="#101619" stroke="#00e5ff" stroke-opacity=".55"/>
+      <text x="337" y="46" text-anchor="middle" fill="#00e5ff" font-size="15" font-weight="700">↗</text>
+      <text x="362" y="37" fill="#8295a0" font-size="9" letter-spacing="1.8">PORTFOLIO</text>
+      <text x="362" y="53" fill="#d8faff" font-size="14" font-weight="700">VISIT WEBSITE</text>
+      <path d="M558 38L564 41L558 44" fill="none" stroke="#00e5ff" stroke-width="1.5"/>
+    </a>
+    <a href="mailto:numaan.y.opai@gmail.com" aria-label="Send email">
+      <path d="M610 20H878V62H610Z" fill="transparent"/>
+      <circle cx="637" cy="41" r="14" fill="#19170f" stroke="#ffd866" stroke-opacity=".55"/>
+      <text x="637" y="46" text-anchor="middle" fill="#ffd866" font-size="15" font-weight="700">@</text>
+      <text x="662" y="37" fill="#a69a76" font-size="9" letter-spacing="1.8">DIRECT MESSAGE</text>
+      <text x="662" y="53" fill="#fff2c6" font-size="14" font-weight="700">EMAIL ME</text>
+      <path d="M858 38L864 41L858 44" fill="none" stroke="#ffd866" stroke-width="1.5"/>
+    </a>
+  </g>
+</svg>

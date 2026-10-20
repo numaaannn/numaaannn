@@ -2,8 +2,7 @@
 
 ![Numaan Opai terminal banner](banner.svg)
 
-![Availability and experience level](status.svg)
-[![Portfolio](https://img.shields.io/badge/Portfolio-visit-00ff41?style=for-the-badge&labelColor=0a0a0a)](https://numaansportfolio.vercel.app/)
+[![Availability, role, experience level, and portfolio](status.svg)](https://numaansportfolio.vercel.app/)
 
 </div>
 
@@ -67,9 +66,7 @@
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-numaaannn-0a0a0a?style=for-the-badge&labelColor=0a0a0a&logo=github&logoColor=00ff41)](https://github.com/numaaannn)
-[![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio-0a0a0a?style=for-the-badge&labelColor=0a0a0a&logo=vercel&logoColor=00e5ff)](https://numaansportfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-0a0a0a?style=for-the-badge&labelColor=0a0a0a&logo=gmail&logoColor=ffd866)](mailto:numaan.y.opai@gmail.com)
+![GitHub, portfolio, and email contact links](contact.svg)
 
 ![exit](footer.svg)
 
