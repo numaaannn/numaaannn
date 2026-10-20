@@ -1,212 +1,236 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="Numaan Opai — DevOps, Linux, Docker, CI/CD and Cloud Infrastructure" width="100%" />
-  <br />
-  <a href="https://github.com/numaaannn"><img src="https://img.shields.io/badge/GitHub-numaaannn-00FF41?style=for-the-badge&logo=github&logoColor=00FF41&labelColor=0A0A0A" alt="GitHub" /></a>
-  <a href="https://numaansportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-00E5FF?style=for-the-badge&logo=vercel&logoColor=00E5FF&labelColor=0A0A0A" alt="Portfolio" /></a>
-  <a href="mailto:numaan.y.opai@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-16C60C?style=for-the-badge&logo=gmail&logoColor=16C60C&labelColor=0A0A0A" alt="Email" /></a>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2C001E,50:5E2750,100:E95420&height=230&section=header&text=NUMAAN%20OPAI&fontColor=EEEEEC&fontSize=60&fontAlignY=36&animation=fadeIn&desc=DevOps%20%7C%20Linux%20%7C%20Docker%20%7C%20CI%2FCD%20%7C%20Cloud%20Infrastructure&descColor=8AE234&descAlignY=58&descSize=20" alt="Numaan Opai - DevOps, Linux, Docker, CI/CD, Cloud Infrastructure" />
+
+<a href="https://github.com/numaaannn">
+  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=500&size=19&duration=3000&pause=1000&color=8AE234&center=true&vCenter=true&width=640&height=45&lines=numaan%40ubuntu%3A~%24+automate.build.deploy.repeat%28%29;Junior+DevOps+%7C+CloudOps+%7C+Entry-level" alt="Terminal-style tagline: automate.build.deploy.repeat()" />
+</a>
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio.vercel.app-E95420?style=for-the-badge&logo=vercel&logoColor=white&labelColor=300A24)](https://numaansportfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-4E9A06?style=for-the-badge&logo=gmail&logoColor=white&labelColor=300A24)](mailto:numaan.y.opai@gmail.com)
+
 </div>
 
-<br />
+<br/>
 
-01 // SYSTEM PROFILE
+## `01` About
 
+```bash
 numaan@ubuntu:~$ whoami
 numaan-opai
 
 numaan@ubuntu:~$ cat profile.yaml
+name:       Numaan Opai
+direction:  Junior DevOps / CloudOps Engineer (entry-level)
+interests:  [Linux, automation, containers, cloud infrastructure, deployment pipelines]
+approach:   Learn a tool, use it in a small project, document what broke and how I fixed it
+goal:       Reliable, repeatable deployment workflows - from commit to running service
+status:     Open to entry-level DevOps, CloudOps and infrastructure roles
+```
 
-name: Numaan Opai
-role: Junior DevOps / CloudOps Engineer (entry-level)
-focus:
-  - Linux administration and networking
-  - Containers and deployment workflows
-  - Bash/Python automation
-  - CI/CD and cloud infrastructure
-approach: Learn -> Build -> Break -> Troubleshoot -> Document
-status: Open to entry-level DevOps and CloudOps opportunities
+I come from a data science and web development background, and I am now building DevOps skills from the ground up: Linux and networking first, then automation, containers, CI/CD and cloud. Every tool below is labelled by how far along I actually am with it.
 
-I come from a data science and web development background and am building practical DevOps skills step by step. My focus is on understanding how applications are packaged, deployed, monitored, and kept reliable—not just collecting tool names.
+<br/>
 
-02 // LIVE LEARNING STATUS
+## `02` Learning Roadmap
+
+```mermaid
+flowchart LR
+    subgraph S1["1 - Foundations"]
+        direction LR
+        A["Linux & Networking"] --> B["Git & GitHub"] --> C["Bash / Python Automation"]
+    end
+    subgraph S2["2 - Build & Ship"]
+        direction LR
+        D["Docker & Containers"] --> E["CI/CD Pipelines"]
+    end
+    subgraph S3["3 - Cloud & Scale"]
+        direction LR
+        F["AWS"] --> G["Terraform & Ansible"] --> H["Kubernetes"]
+    end
+    I["Monitoring, Logging & Troubleshooting"]
+
+    S1 --> S2 --> S3 --> I
+
+    classDef node fill:#300A24,stroke:#E95420,color:#EEEEEC;
+    style S1 fill:#2C001E,stroke:#5E2750,color:#EEEEEC
+    style S2 fill:#2C001E,stroke:#5E2750,color:#EEEEEC
+    style S3 fill:#2C001E,stroke:#5E2750,color:#EEEEEC
+    class A,B,C,D,E,F,G,H,I node;
+```
+
+> This is the order I am learning in, not a list of mastered skills. See the status table below for where I actually stand.
+
+<br/>
+
+## `03` Tech Stack
+
+| Area | Tools |
+| :-- | :-- |
+| **OS & Scripting** | <img src="https://skillicons.dev/icons?i=linux,bash,py&theme=dark" alt="Linux, Bash, Python" align="center" /> |
+| **Version Control** | <img src="https://skillicons.dev/icons?i=git,github&theme=dark" alt="Git, GitHub" align="center" /> |
+| **Containers & Orchestration** | <img src="https://skillicons.dev/icons?i=docker,kubernetes&theme=dark" alt="Docker, Kubernetes" align="center" /> |
+| **CI/CD** | <img src="https://skillicons.dev/icons?i=githubactions,jenkins&theme=dark" alt="GitHub Actions, Jenkins" align="center" /> |
+| **Cloud & IaC** | <img src="https://skillicons.dev/icons?i=aws,terraform,ansible&theme=dark" alt="AWS, Terraform, Ansible" align="center" /> |
+
+**Honest status**
+
+| Status | Technologies |
+| :-- | :-- |
+| Practiced | Git, GitHub, Python, Docker basics (run, ps, start, detached containers) |
+| Learning now | Linux administration and networking, Bash, Docker images and Dockerfiles, GitHub Actions |
+| Next up | AWS, Terraform, Ansible, Kubernetes, Jenkins, monitoring tools |
+
+<!-- [REPLACE] Move a tool up a row only when a repository proves it. -->
+
+<br/>
+
+## `04` Background: Data Science & Web Development
+
+Before moving toward DevOps, I worked in data science and web development. That background carries over: I write Python, build applications, and want to be the person who gets them deployed reliably.
+
+| Experience | Where |
+| :-- | :-- |
+| Data Science Apprenticeship | Vigo Technoworld Pvt. Ltd. |
+| Web Development Internship | Smart Software Solutions |
+
+| Area | Tools I have used |
+| :-- | :-- |
+| **Data Science & ML** | <img src="https://skillicons.dev/icons?i=py,tensorflow,sklearn,pandas,numpy,jupyter&theme=dark" alt="Python, TensorFlow, scikit-learn, Pandas, NumPy, Jupyter" align="center" /> |
+| **Web** | <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,js,html,css,tailwind&theme=dark" alt="React, Next.js, Node.js, JavaScript, HTML, CSS, Tailwind" align="center" /> |
+| **Mobile** | <img src="https://skillicons.dev/icons?i=flutter,dart,java&theme=dark" alt="Flutter, Dart, Java" align="center" /> |
+| **Databases** | <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres&theme=dark" alt="MongoDB, MySQL, PostgreSQL" align="center" /> |
+
+**Earlier projects**
+
+| Project | What it is | Stack |
+| :-- | :-- | :-- |
+| **Customer Segmentation & Recommendation System** | MCA thesis: K-Means clustering (6 segments) with PCA for visualization, deployed publicly on Streamlit Cloud. | `Python` `scikit-learn` `Streamlit` |
+| **Jewellery Store with AI Chatbot** | Online store deployed on Vercel with an AI chatbot. | `Next.js` `Vercel` |
+| **AI Interview Engine** *(in progress)* | FastAPI multi-agent system with question, evaluation, memory and scoring agents. | `FastAPI` `Redis` `ChromaDB` |
+
+<!-- [REPLACE] Add live-demo and repo links in the Project cells, e.g. **[Customer Segmentation](https://YOUR-STREAMLIT-URL)** -->
+
+## `05` Featured Projects
+
+Each project below is a planned build with a defined scope. Cards get a repository link once the work is published.
+
+| Project | Problem and scope | Stack | Status |
+| :-- | :-- | :-- | :-- |
+| **Dockerized Application** | Package a sample app into an image; document build, run, ports, logs and troubleshooting. | `Docker` `Linux` | Planned |
+| **CI/CD Pipeline** | GitHub Actions workflow that lints, tests and builds on every push. Deployment is added only once implemented. | `GitHub Actions` `Git` | Planned |
+| **Linux Server Monitor** | Bash script checking disk, memory, CPU and service health, with logging and meaningful exit codes. | `Bash` `Linux` | Planned |
+| **Cloud Deployment** | Deploy an app on AWS with documented architecture, networking, security and steps. | `AWS` `Docker` | Planned |
+
+<!-- [REPLACE] When a project is done, change Status to "Complete" and put the repo link in the Project cell, e.g. **[Dockerized Application](https://github.com/numaaannn/YOUR-REPO)** -->
+
+More of my earlier work, including web and data projects: **[numaansportfolio.vercel.app](https://numaansportfolio.vercel.app/)**
+
+<br/>
+
+## `06` DevOps Command Reference
+
+Commands I am practicing. This is a study reference, not output from real infrastructure.
+
+```bash
+docker ps                  # list running containers
+docker logs <container>    # read a container's logs
+systemctl status nginx     # check whether a service is running
+ss -lntp                   # show listening TCP ports and their processes
+git status                 # see changed and staged files
+```
+
+| Command | What it tells you |
+| :-- | :-- |
+| `docker ps` | Which containers are up, their ports and uptime |
+| `docker logs <container>` | Why an app crashed or misbehaved |
+| `systemctl status nginx` | Service state plus the most recent log lines |
+| `ss -lntp` | Whether a service is actually listening on the expected port |
+| `git status` | The state of your working tree before a commit |
+
+**Lab log: Docker basics on WSL Ubuntu**
+
+Real session from my own machine while practicing container basics (prompt shortened, output trimmed).
+
+```console
+numaan@ubuntu:~/Linux$ docker run -it ubuntu bash
+root@75d6eda7b846:/# docker ps -a
+bash: docker: command not found
+root@75d6eda7b846:/# exit
+
+numaan@ubuntu:~/Linux$ docker start -ai wizardly_heisenberg
+root@76d4545a1770:/# cat /etc/os-release
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04.1 LTS (Resolute Raccoon)"
+ID=ubuntu
+ID_LIKE=debian
+root@76d4545a1770:/# exit
+
+numaan@ubuntu:~/Linux$ docker run -dit --name <name> ubuntu
+484025e1c97c696b171c9e449b90169e000b07bba9ef92067cb3db3bfeadef24
+
+numaan@ubuntu:~/Linux$ docker ps
+CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS
+484025e1c97c   ubuntu    "/bin/bash"   2 minutes ago   Up 2 minutes
+```
+
+<!-- [REPLACE] <name> with the exact container name from your own docker run -dit --name command. -->
+
+What this taught me:
+
+- The `docker` CLI runs on the host. Inside the `ubuntu` container, `docker: command not found` is expected.
+- A container stops when its main process exits. `docker start -ai` reattaches to a stopped one.
+- `-it` gives an interactive shell; `-dit` keeps the container running in the background.
+- Each image ships its own minimal userland, which `/etc/os-release` shows from inside the container.
+
+<br/>
+
+## `07` GitHub Activity
 
 <div align="center">
-  <img src="./assets/skills-status.svg" alt="Terminal dashboard showing practiced, currently learning, and next-up DevOps skills" width="100%" />
-</div>
 
-Status labels reflect my current learning journey. They are not claims of production-level experience.
-
-03 // INFRASTRUCTURE ROADMAP
-
-<div align="center">
-  <img src="./assets/roadmap.svg" alt="DevOps learning roadmap from Linux and networking through automation, Docker, CI/CD, cloud, infrastructure as code, Kubernetes, and monitoring" width="100%" />
-</div>
-
-04 // TOOLCHAIN
-
-<div align="center">
-
-01 Foundations
-
-02 Build & Ship
-
-03 Cloud & Operations
-
-<img src="https://skillicons.dev/icons?i=linux,bash,py,git,github&theme=dark" alt="Linux, Bash, Python, Git, GitHub" />
-
-<img src="https://skillicons.dev/icons?i=docker,githubactions,jenkins&theme=dark" alt="Docker, GitHub Actions, Jenkins" />
-
-<img src="https://skillicons.dev/icons?i=aws,terraform,ansible,kubernetes&theme=dark" alt="AWS, Terraform, Ansible, Kubernetes" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=numaaannn&show_icons=true&hide_border=true&bg_color=300A24&title_color=E95420&icon_color=8AE234&text_color=EEEEEC" alt="GitHub stats for numaaannn" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=numaaannn&layout=compact&hide_border=true&bg_color=300A24&title_color=E95420&text_color=EEEEEC" alt="Top languages for numaaannn" />
 
 </div>
 
-Current practice: Git/GitHub, Python, Docker basics, Linux administration and networking.
-Building next: Bash scripting, Dockerfiles/images, GitHub Actions, AWS, Terraform, Ansible, Kubernetes, Jenkins, monitoring and logging.
+<sub>Public activity only. Private contributions are not shown. If these cards fail to load, remove this section; the free service is occasionally rate-limited.</sub>
 
-05 // SELECTED PROJECTS
+<br/>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Customer Segmentation & Recommendation</h3>
-      <p>MCA project using K-Means clustering to identify six customer segments, with PCA for visualization and a Streamlit deployment.</p>
-      <p><code>Python</code> <code>scikit-learn</code> <code>K-Means</code> <code>Streamlit</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Jewellery Store with AI Chatbot</h3>
-      <p>Web-based jewellery store with an AI chatbot, combining frontend development with a conversational customer experience.</p>
-      <p><code>Next.js</code> <code>React</code> <code>AI Chatbot</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>AI Interview Engine <sub>(in progress)</sub></h3>
-      <p>Multi-agent interview workflow for questions, evaluation, memory, and scoring.</p>
-      <p><code>FastAPI</code> <code>Redis</code> <code>ChromaDB</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>DevOps Lab Projects</h3>
-      <p>Next build targets: containerize an application, create a CI pipeline, automate Linux health checks, and deploy to AWS.</p>
-      <p><code>Docker</code> <code>GitHub Actions</code> <code>Bash</code> <code>AWS</code></p>
-      <p><em>Planned work — not presented as completed.</em></p>
-    </td>
-  </tr>
-</table>
+## `08` Learning Milestones
 
-06 // TERMINAL FIELD NOTES
+- [ ] Strengthen Linux troubleshooting and system logs
+- [ ] Complete Bash scripting exercises
+- [ ] Build and document a Docker project
+- [ ] Create a working CI/CD pipeline
+- [ ] Deploy an application to a cloud environment
+- [ ] Learn Infrastructure as Code (Terraform)
+- [ ] Practice Kubernetes fundamentals
+- [ ] Build a complete DevOps portfolio project
 
-Commands I am practicing in local labs. Examples are learning references, not evidence of production infrastructure.
+<br/>
 
-# Containers
- docker ps
- docker logs <container>
- docker start -ai <container>
+## `09` Contact
 
-# Services and logs
- systemctl status nginx
- journalctl -u nginx --since "1 hour ago"
-
-# Networking
- ip addr show
- ip route
- ss -lntp
- curl -I https://example.com
-
-# Files, search, and Git
- find . -name "*.log"
- grep -i "error" application.log
- git status
-
-Command
-
-Purpose
-
-docker ps
-
-List running containers. Use docker ps -a to include stopped containers.
-
-docker logs <container>
-
-Inspect application output from a container.
-
-systemctl status nginx
-
-Check a service's state and recent status details.
-
-journalctl -u nginx
-
-Inspect logs for a systemd service.
-
-ss -lntp
-
-Inspect listening TCP ports and, with sufficient permissions, owning processes.
-
-ip route
-
-View the host's routing table.
-
-find . -name "*.log"
-
-Find log files under the current directory.
-
-07 // BACKGROUND
-
-Experience
-
-Organization
-
-Focus
-
-Data Science Apprenticeship
-
-Vigo Technoworld Pvt. Ltd.
-
-Data processing, exploratory analysis, Python and SQL
-
-Web Development Internship
-
-Smart Software Solutions
-
-Web development and application building
-
-Earlier work in data science and web development gives me a useful base for automation and application deployment: I can work with code, understand application structure, and learn how to operate it reliably.
-
-08 // GITHUB TELEMETRY
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=numaaannn&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=00FF41&icon_color=00E5FF&text_color=CCCCCC" alt="GitHub statistics for numaaannn" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=numaaannn&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=00FF41&text_color=CCCCCC" alt="Most-used public languages for numaaannn" />
-</div>
-
-<sub>These cards depend on a third-party service and may occasionally be unavailable or rate-limited.</sub>
-
-09 // MILESTONE QUEUE
-
-Strengthen Linux logs and service troubleshooting
-
-Complete Bash scripting fundamentals and exercises
-
-Publish a documented Docker project
-
-Build a working GitHub Actions CI/CD pipeline
-
-Deploy an application to AWS
-
-Practice Terraform fundamentals
-
-Build a Kubernetes fundamentals lab
-
-Publish an end-to-end DevOps portfolio project
-
-10 // CONNECT
-
+```bash
 numaan@ubuntu:~$ ./open_to_work.sh
-Target: Junior DevOps | CloudOps | Entry-level Infrastructure
-Mode: Learn continuously. Automate repeatable work. Document the fix.
+Open to junior DevOps, CloudOps and entry-level infrastructure roles.
+```
 
 <div align="center">
-  <a href="https://github.com/numaaannn">GitHub</a> ·
-  <a href="https://numaansportfolio.vercel.app/">Portfolio</a> ·
-  <a href="mailto:numaan.y.opai@gmail.com">Email</a>
-  <br /><br />
-  <img src="./assets/footer.svg" alt="End of transmission — build, ship, observe, improve" width="100%" />
+
+[![GitHub](https://img.shields.io/badge/GitHub-numaaannn-5E2750?style=for-the-badge&logo=github&logoColor=white&labelColor=300A24)](https://github.com/numaaannn)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-E95420?style=for-the-badge&logo=vercel&logoColor=white&labelColor=300A24)](https://numaansportfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-Send-4E9A06?style=for-the-badge&logo=gmail&logoColor=white&labelColor=300A24)](mailto:numaan.y.opai@gmail.com)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E95420,50:5E2750,100:2C001E&height=90&section=footer" alt="Footer banner" />
+
 </div>
+
+<!-- [OPTIONAL] Add LinkedIn badge once you confirm your URL:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-5E2750?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=300A24)](YOUR_LINKEDIN_URL) -->
