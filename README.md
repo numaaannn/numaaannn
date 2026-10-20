@@ -1,137 +1,170 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,50:0b3a53,100:00b4d8&height=220&section=header&text=NUMAAN%20OPAI&fontColor=e6faff&fontSize=62&fontAlignY=42&animation=fadeIn&desc=%3E%3E%3E%20data.fit%28%29%20%7C%20model.train%28%29%20%7C%20ship%28%29&descColor=7ee7ff&descAlignY=66&descSize=20" alt="Numaan Opai banner" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B1F33,100:00D4FF&height=230&section=header&text=NUMAAN%20OPAI&fontColor=E6EDF3&fontSize=60&fontAlignY=36&animation=fadeIn&desc=DevOps%20%7C%20Linux%20%7C%20Docker%20%7C%20CI%2FCD%20%7C%20Cloud%20Infrastructure&descColor=58A6FF&descAlignY=58&descSize=20" alt="Numaan Opai - DevOps, Linux, Docker, CI/CD, Cloud Infrastructure" />
 
 <a href="https://github.com/numaaannn">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=00D4FF&background=0D111700&center=true&vCenter=true&width=640&height=50&lines=%3E%3E%3E+import+pandas+as+pd;%3E%3E%3E+df+%3D+pd.read_csv%28%22curiosity.csv%22%29;%3E%3E%3E+model.fit%28X_train%2C+y_train%29;%3E%3E%3E+print%28%22Turning+data+into+decisions%22%29" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=560&height=45&lines=%24+automate.build.deploy.repeat%28%29;Junior+DevOps+%7C+CloudOps+%7C+Entry-level" alt="Terminal-style tagline: automate.build.deploy.repeat()" />
 </a>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-numaansportfolio.vercel.app-00b4d8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://numaansportfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/EMAIL-numaan.y.opai@gmail.com-00b4d8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:numaan.y.opai@gmail.com)
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-@numaan.38-00b4d8?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d1117)](https://instagram.com/numaan.38)
-
-<img src="https://komarev.com/ghpvc/?username=numaaannn&label=Dataset%20reads&color=00b4d8&style=flat-square&labelColor=0d1117" alt="Profile views" />
+[![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio.vercel.app-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117)](https://numaansportfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-58A6FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:numaan.y.opai@gmail.com)
 
 </div>
 
 <br/>
 
-## `01` &nbsp;📓 About &mdash; `profile.py`
+## `01` About
 
-```python
-class NumaanOpai:
-    """Data Science & Machine Learning enthusiast."""
+```bash
+$ whoami
+numaan-opai
 
-    role       = "Aspiring Data Scientist"
-    focus      = ["Data Analysis", "Machine Learning", "Full-Stack Apps"]
-    learning   = "Data Science"
-    exploring  = "TODO: deep learning / MLOps / LLM apps"   # edit me
-    languages  = ["Python", "JavaScript", "Java", "Dart"]
-    ask_me_about = ["Python", "Pandas", "scikit-learn", "React", "Flutter"]
-
-    contact    = "numaan.y.opai@gmail.com"
-    portfolio  = "https://numaansportfolio.vercel.app/"
-
-    def mission(self):
-        return "Take messy data, make it useful, put it in people's hands."
+$ cat profile.yaml
+name:       Numaan Opai
+direction:  Junior DevOps / CloudOps Engineer (entry-level)
+interests:  [Linux, automation, containers, cloud infrastructure, deployment pipelines]
+approach:   Learn a tool, use it in a small project, document what broke and how I fixed it
+goal:       Reliable, repeatable deployment workflows - from commit to running service
+status:     Open to entry-level DevOps, CloudOps and infrastructure roles
 ```
+
+I am building DevOps skills from the ground up: Linux and networking first, then automation, containers, CI/CD and cloud. Every tool below is labelled by how far along I actually am with it.
 
 <br/>
 
-## `02` &nbsp;🔬 My Workflow &mdash; `pipeline.md`
+## `02` Learning Roadmap
 
 ```mermaid
 flowchart LR
-    A([📥 Collect Data]) --> B([🧹 Clean & Prepare])
-    B --> C([📊 Explore - EDA])
-    C --> D([🧠 Train Model])
-    D --> E([📏 Evaluate])
-    E --> F([🚀 Deploy App])
-    E -. iterate .-> B
+    subgraph S1["1 - Foundations"]
+        direction LR
+        A["Linux & Networking"] --> B["Git & GitHub"] --> C["Bash / Python Automation"]
+    end
+    subgraph S2["2 - Build & Ship"]
+        direction LR
+        D["Docker & Containers"] --> E["CI/CD Pipelines"]
+    end
+    subgraph S3["3 - Cloud & Scale"]
+        direction LR
+        F["AWS"] --> G["Terraform & Ansible"] --> H["Kubernetes"]
+    end
+    I["Monitoring, Logging & Troubleshooting"]
+
+    S1 --> S2 --> S3 --> I
+
+    classDef node fill:#0B1F33,stroke:#00D4FF,color:#E6EDF3;
+    class A,B,C,D,E,F,G,H,I node;
 ```
 
+> This is the order I am learning in, not a list of mastered skills. See the status table below for where I actually stand.
+
 <br/>
 
-## `03` &nbsp;🧪 Tech Stack &mdash; `requirements.txt`
+## `03` Tech Stack
 
-| Layer | Tools |
+| Area | Tools |
 | :-- | :-- |
-| 🐍 **Data Science & ML** | <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,pandas,numpy,jupyter&theme=dark" alt="DS stack" align="center" /> |
-| 🌐 **Web** | <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,js,html,css,tailwind&theme=dark" alt="Web stack" align="center" /> |
-| 📱 **Mobile** | <img src="https://skillicons.dev/icons?i=flutter,androidstudio,java&theme=dark" alt="Mobile stack" align="center" /> |
-| 🗄️ **Data & Tools** | <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,git,github,vercel,vscode&theme=dark" alt="Tools" align="center" /> |
+| **OS & Scripting** | <img src="https://skillicons.dev/icons?i=linux,bash,py&theme=dark" alt="Linux, Bash, Python" align="center" /> |
+| **Version Control** | <img src="https://skillicons.dev/icons?i=git,github&theme=dark" alt="Git, GitHub" align="center" /> |
+| **Containers & Orchestration** | <img src="https://skillicons.dev/icons?i=docker,kubernetes&theme=dark" alt="Docker, Kubernetes" align="center" /> |
+| **CI/CD** | <img src="https://skillicons.dev/icons?i=githubactions,jenkins&theme=dark" alt="GitHub Actions, Jenkins" align="center" /> |
+| **Cloud & IaC** | <img src="https://skillicons.dev/icons?i=aws,terraform,ansible&theme=dark" alt="AWS, Terraform, Ansible" align="center" /> |
 
-<br/>
+**Honest status**
 
-## `04` &nbsp;🗂️ Model Card &mdash; `numaan_v1.0`
-
-| | |
+| Status | Technologies |
 | :-- | :-- |
-| **Task** | Learn, build, and ship data-driven projects |
-| **Framework** | Python · pandas · scikit-learn · TensorFlow |
-| **Training data** | Courses, projects, and curiosity |
-| **Status** | 🟢 Actively training (`epochs=∞`) |
-| **Best used for** | Collaboration, internships, data & ML projects |
-| **Known limitations** | Still learning; occasionally overfits on coffee ☕ |
+| Practiced | Git, GitHub, Python |
+| Learning now | Linux administration and networking, Bash, Docker, GitHub Actions |
+| Next up | AWS, Terraform, Ansible, Kubernetes, Jenkins, monitoring tools |
+
+<!-- [REPLACE] Move a tool up a row only when a repository proves it. -->
 
 <br/>
 
-## `05` &nbsp;🚀 Featured Projects &mdash; `results.csv`
+## `04` Featured Projects
 
-> Replace each row with your best work (3 to 6 projects). Lead with a number: accuracy, users, time saved.
+Each project below is a planned build with a defined scope. Cards get a repository link once the work is published.
 
-| Project | Problem → Result | Stack |
-| :-- | :-- | :-- |
-| 🔹 **[Project name](https://github.com/numaaannn/REPO)** | One line: what it solves and the metric (e.g. "Predicts X, 92% accuracy"). | `Python` `scikit-learn` |
-| 🔹 **[Project name](https://github.com/numaaannn/REPO)** | One line: what it solves and the metric. | `TensorFlow` `Pandas` |
-| 🔹 **[Project name](https://github.com/numaaannn/REPO)** | One line: what it solves and the metric. | `Next.js` `Tailwind` |
+| Project | Problem and scope | Stack | Status |
+| :-- | :-- | :-- | :-- |
+| **Dockerized Application** | Package a sample app into an image; document build, run, ports, logs and troubleshooting. | `Docker` `Linux` | Planned |
+| **CI/CD Pipeline** | GitHub Actions workflow that lints, tests and builds on every push. Deployment is added only once implemented. | `GitHub Actions` `Git` | Planned |
+| **Linux Server Monitor** | Bash script checking disk, memory, CPU and service health, with logging and meaningful exit codes. | `Bash` `Linux` | Planned |
+| **Cloud Deployment** | Deploy an app on AWS with documented architecture, networking, security and steps. | `AWS` `Docker` | Planned |
 
-👉 Full list at **[numaansportfolio.vercel.app](https://numaansportfolio.vercel.app/)**
+<!-- [REPLACE] When a project is done, change Status to "Complete" and put the repo link in the Project cell, e.g. **[Dockerized Application](https://github.com/numaaannn/YOUR-REPO)** -->
+
+More of my earlier work, including web and data projects: **[numaansportfolio.vercel.app](https://numaansportfolio.vercel.app/)**
 
 <br/>
 
-## `06` &nbsp;📈 Metrics &mdash; `evaluate.py`
+## `05` DevOps Command Reference
+
+Commands I am practicing. This is a study reference, not output from real infrastructure.
+
+```bash
+docker ps                  # list running containers
+docker logs <container>    # read a container's logs
+systemctl status nginx     # check whether a service is running
+ss -lntp                   # show listening TCP ports and their processes
+git status                 # see changed and staged files
+```
+
+| Command | What it tells you |
+| :-- | :-- |
+| `docker ps` | Which containers are up, their ports and uptime |
+| `docker logs <container>` | Why an app crashed or misbehaved |
+| `systemctl status nginx` | Service state plus the most recent log lines |
+| `ss -lntp` | Whether a service is actually listening on the expected port |
+| `git status` | The state of your working tree before a commit |
+
+<br/>
+
+## `06` GitHub Activity
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=numaaannn&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00d4ff&icon_color=00b4d8&text_color=c9d1d9&ring_color=00d4ff" alt="GitHub stats" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=numaaannn&layout=compact&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9" alt="Top languages" />
-
-<img src="https://streak-stats.demolab.com/?user=numaaannn&hide_border=true&background=0d1117&stroke=00b4d8&ring=00d4ff&fire=00d4ff&currStreakNum=e6faff&sideNums=e6faff&currStreakLabel=00d4ff&sideLabels=7ee7ff&dates=8b949e" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=numaaannn&bg_color=0d1117&color=7ee7ff&line=00b4d8&point=ffffff&area=true&area_color=00b4d8&hide_border=true&title_color=00d4ff" alt="Contribution graph" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=numaaannn&theme=onedark&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="Trophies" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=numaaannn&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=58A6FF&text_color=E6EDF3" alt="GitHub stats for numaaannn" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=numaaannn&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=E6EDF3" alt="Top languages for numaaannn" />
 
 </div>
 
-<br/>
-
-## `07` &nbsp;🎯 Roadmap &mdash; `todo.ipynb`
-
-- [x] Learn the fundamentals of Data Science
-- [ ] Ship a polished end-to-end ML project with a live demo
-- [ ] Write one project up as a case study or blog post
-- [ ] Contribute to an open-source data science library
-- [ ] *TODO: add your own goal*
+<sub>Public activity only. Private contributions are not shown. If these cards fail to load, remove this section; the free service is occasionally rate-limited.</sub>
 
 <br/>
 
-## `08` &nbsp;🤝 Contact &mdash; `main.py`
+## `07` Learning Milestones
 
-```python
-if __name__ == "__main__":
-    print("Open to collaborations, internships & data/ML conversations.")
-    send_message(to="numaan.y.opai@gmail.com")
+- [ ] Strengthen Linux troubleshooting and system logs
+- [ ] Complete Bash scripting exercises
+- [ ] Build and document a Docker project
+- [ ] Create a working CI/CD pipeline
+- [ ] Deploy an application to a cloud environment
+- [ ] Learn Infrastructure as Code (Terraform)
+- [ ] Practice Kubernetes fundamentals
+- [ ] Build a complete DevOps portfolio project
+
+<br/>
+
+## `08` Contact
+
+```bash
+$ ./open_to_work.sh
+Open to junior DevOps, CloudOps and entry-level infrastructure roles.
 ```
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/VISIT-Portfolio-00b4d8?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://numaansportfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/SEND-Email-00b4d8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117)](mailto:numaan.y.opai@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-numaaannn-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/numaaannn)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117)](https://numaansportfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-Send-3FB950?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:numaan.y.opai@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00b4d8,50:0b3a53,100:0d1117&height=100&section=footer" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00D4FF,50:0B1F33,100:0D1117&height=90&section=footer" alt="Footer banner" />
 
 </div>
+
+<!-- [OPTIONAL] Add LinkedIn badge once you confirm your URL:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-58A6FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](YOUR_LINKEDIN_URL) -->
