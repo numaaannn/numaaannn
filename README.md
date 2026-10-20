@@ -1,15 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,50:0B1F33,100:00D4FF&height=230&section=header&text=NUMAAN%20OPAI&fontColor=E6EDF3&fontSize=60&fontAlignY=36&animation=fadeIn&desc=DevOps%20%7C%20Linux%20%7C%20Docker%20%7C%20CI%2FCD%20%7C%20Cloud%20Infrastructure&descColor=58A6FF&descAlignY=58&descSize=20" alt="Numaan Opai - DevOps, Linux, Docker, CI/CD, Cloud Infrastructure" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2C001E,50:5E2750,100:E95420&height=230&section=header&text=NUMAAN%20OPAI&fontColor=EEEEEC&fontSize=60&fontAlignY=36&animation=fadeIn&desc=DevOps%20%7C%20Linux%20%7C%20Docker%20%7C%20CI%2FCD%20%7C%20Cloud%20Infrastructure&descColor=8AE234&descAlignY=58&descSize=20" alt="Numaan Opai - DevOps, Linux, Docker, CI/CD, Cloud Infrastructure" />
 
 <a href="https://github.com/numaaannn">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&width=560&height=45&lines=%24+automate.build.deploy.repeat%28%29;Junior+DevOps+%7C+CloudOps+%7C+Entry-level" alt="Terminal-style tagline: automate.build.deploy.repeat()" />
+  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu+Mono&weight=500&size=19&duration=3000&pause=1000&color=8AE234&center=true&vCenter=true&width=640&height=45&lines=numaan%40ubuntu%3A~%24+automate.build.deploy.repeat%28%29;Junior+DevOps+%7C+CloudOps+%7C+Entry-level" alt="Terminal-style tagline: automate.build.deploy.repeat()" />
 </a>
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio.vercel.app-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117)](https://numaansportfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-58A6FF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:numaan.y.opai@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio.vercel.app-E95420?style=for-the-badge&logo=vercel&logoColor=white&labelColor=300A24)](https://numaansportfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-4E9A06?style=for-the-badge&logo=gmail&logoColor=white&labelColor=300A24)](mailto:numaan.y.opai@gmail.com)
 
 </div>
 
@@ -18,10 +18,10 @@
 ## `01` About
 
 ```bash
-$ whoami
+numaan@ubuntu:~$ whoami
 numaan-opai
 
-$ cat profile.yaml
+numaan@ubuntu:~$ cat profile.yaml
 name:       Numaan Opai
 direction:  Junior DevOps / CloudOps Engineer (entry-level)
 interests:  [Linux, automation, containers, cloud infrastructure, deployment pipelines]
@@ -54,7 +54,10 @@ flowchart LR
 
     S1 --> S2 --> S3 --> I
 
-    classDef node fill:#0B1F33,stroke:#00D4FF,color:#E6EDF3;
+    classDef node fill:#300A24,stroke:#E95420,color:#EEEEEC;
+    style S1 fill:#2C001E,stroke:#5E2750,color:#EEEEEC
+    style S2 fill:#2C001E,stroke:#5E2750,color:#EEEEEC
+    style S3 fill:#2C001E,stroke:#5E2750,color:#EEEEEC
     class A,B,C,D,E,F,G,H,I node;
 ```
 
@@ -153,8 +156,8 @@ git status                 # see changed and staged files
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=numaaannn&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=58A6FF&text_color=E6EDF3" alt="GitHub stats for numaaannn" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=numaaannn&layout=compact&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=E6EDF3" alt="Top languages for numaaannn" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=numaaannn&show_icons=true&hide_border=true&bg_color=300A24&title_color=E95420&icon_color=8AE234&text_color=EEEEEC" alt="GitHub stats for numaaannn" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=numaaannn&layout=compact&hide_border=true&bg_color=300A24&title_color=E95420&text_color=EEEEEC" alt="Top languages for numaaannn" />
 
 </div>
 
@@ -178,19 +181,19 @@ git status                 # see changed and staged files
 ## `09` Contact
 
 ```bash
-$ ./open_to_work.sh
+numaan@ubuntu:~$ ./open_to_work.sh
 Open to junior DevOps, CloudOps and entry-level infrastructure roles.
 ```
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-numaaannn-58A6FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/numaaannn)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-00D4FF?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117)](https://numaansportfolio.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-Send-3FB950?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:numaan.y.opai@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-numaaannn-5E2750?style=for-the-badge&logo=github&logoColor=white&labelColor=300A24)](https://github.com/numaaannn)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-E95420?style=for-the-badge&logo=vercel&logoColor=white&labelColor=300A24)](https://numaansportfolio.vercel.app/)
+[![Email](https://img.shields.io/badge/Email-Send-4E9A06?style=for-the-badge&logo=gmail&logoColor=white&labelColor=300A24)](mailto:numaan.y.opai@gmail.com)
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00D4FF,50:0B1F33,100:0D1117&height=90&section=footer" alt="Footer banner" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E95420,50:5E2750,100:2C001E&height=90&section=footer" alt="Footer banner" />
 
 </div>
 
 <!-- [OPTIONAL] Add LinkedIn badge once you confirm your URL:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-58A6FF?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](YOUR_LINKEDIN_URL) -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-5E2750?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=300A24)](YOUR_LINKEDIN_URL) -->
