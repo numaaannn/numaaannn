@@ -54,18 +54,7 @@
 
 ![04_background](h04.svg)
 
-Before moving toward DevOps, I worked in data science and web development. That background carries over: I write Python, build applications, and want to be the person who gets them deployed reliably.
-
-| Experience | Where |
-| --- | --- |
-| Data Science Apprenticeship | Vigo Technoworld Pvt. Ltd. |
-| Web Development Internship | Smart Software Solutions |
-
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **Customer Segmentation & Recommendation System** | MCA thesis: K-Means clustering (6 segments) with PCA for visualization, deployed publicly on Streamlit Cloud. | `Python` `scikit-learn` `Streamlit` |
-| **Jewellery Store with AI Chatbot** | Online store deployed on Vercel with an AI chatbot. | `Next.js` `Vercel` |
-| **AI Interview Engine** *(in progress)* | FastAPI multi-agent system with question, evaluation, memory and scoring agents. | `FastAPI` `Redis` `ChromaDB` |
+![background](background.svg)
 
 <br>
 
@@ -109,12 +98,6 @@ CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS
 **what this taught me:** the docker CLI runs on the host, so `docker: command not found` inside the container is expected. A container stops when its main process exits, and `docker start -ai` reattaches. `-it` gives an interactive shell; `-dit` keeps it running in the background. Each image ships its own minimal userland.
 
 </details>
-
-<br>
-
-![07_milestones](h07.svg)
-
-![milestones](milestones.svg)
 
 <br>
 
