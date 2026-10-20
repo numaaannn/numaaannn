@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 112" role="img" aria-labelledby="title desc">
+  <title id="title">Availability and experience level</title>
+  <desc id="desc">Open to work, junior DevOps developer, entry level.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00ff41" stop-opacity=".75"/>
+      <stop offset=".52" stop-color="#163322" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity=".75"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#00ff41" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="panel">
+      <path d="M18 8H982L992 18V94L982 104H18L8 94V18Z"/>
+    </clipPath>
+  </defs>
+  <path d="M18 8H982L992 18V94L982 104H18L8 94V18Z" fill="#080c0a" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M18 12H982L988 18V94L982 100H18L12 94V18Z" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  <g clip-path="url(#panel)">
+    <path d="M337 8V104M663 8V104" stroke="#26352b" stroke-width="1"/>
+    <path d="M34 20V32M34 20H46M966 20V32M966 20H954" fill="none" stroke="#00ff41" stroke-opacity=".65"/>
+    <path d="M34 92V80M34 92H46M966 92V80M966 92H954" fill="none" stroke="#00e5ff" stroke-opacity=".65"/>
+    <rect x="-110" y="8" width="110" height="96" fill="url(#scan)">
+      <animate attributeName="x" from="-110" to="1000" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g font-family="'Cascadia Mono',Consolas,monospace">
+    <text x="64" y="42" fill="#82958a" font-size="11" letter-spacing="2.2">AVAILABILITY</text>
+    <circle cx="70" cy="70" r="4" fill="#00ff41"/>
+    <circle cx="70" cy="70" r="7" fill="none" stroke="#00ff41" stroke-opacity=".45">
+      <animate attributeName="r" values="5;9;5" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".5;0;.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="86" y="76" fill="#d9ffe2" font-size="19" font-weight="700" letter-spacing=".8">OPEN TO WORK</text>
+
+    <text x="382" y="42" fill="#8295a0" font-size="11" letter-spacing="2.2">ROLE</text>
+    <path d="M382 65L388 71L382 77" fill="none" stroke="#00e5ff" stroke-width="1.5"/>
+    <text x="400" y="76" fill="#d8faff" font-size="19" font-weight="700" letter-spacing=".8">JUNIOR DEVOPS</text>
+
+    <text x="708" y="42" fill="#82958a" font-size="11" letter-spacing="2.2">EXPERIENCE</text>
+    <path d="M708 65L714 71L708 77" fill="none" stroke="#00ff41" stroke-width="1.5"/>
+    <text x="726" y="76" fill="#d9ffe2" font-size="19" font-weight="700" letter-spacing=".8">ENTRY LEVEL</text>
+  </g>
+</svg>

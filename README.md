@@ -2,8 +2,7 @@
 
 ![Numaan Opai terminal banner](banner.svg)
 
-![Status](https://img.shields.io/badge/status-OPEN__TO__WORK-00ff41?style=for-the-badge&labelColor=0a0a0a)
-![Level](https://img.shields.io/badge/level-entry--level-00e5ff?style=for-the-badge&labelColor=0a0a0a)
+![Availability and experience level](status.svg)
 [![Portfolio](https://img.shields.io/badge/Portfolio-visit-00ff41?style=for-the-badge&labelColor=0a0a0a)](https://numaansportfolio.vercel.app/)
 
 </div>
