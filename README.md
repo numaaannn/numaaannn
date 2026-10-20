@@ -1,33 +1,32 @@
 <div align="center">
 
-![Numaan Opai terminal banner](assets/banner.svg)
+![Numaan Opai terminal banner](banner.svg)
 
 ![Status](https://img.shields.io/badge/status-OPEN__TO__WORK-00ff41?style=for-the-badge&labelColor=0a0a0a)
 ![Level](https://img.shields.io/badge/level-entry--level-00e5ff?style=for-the-badge&labelColor=0a0a0a)
-[![Live Terminal Page](https://img.shields.io/badge/Live_Terminal_Page-open-ffd866?style=for-the-badge&labelColor=0a0a0a)](https://YOUR-USERNAME.github.io/YOUR-REPO/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-visit-00ff41?style=for-the-badge&labelColor=0a0a0a)](https://numaansportfolio.vercel.app/)
 
 </div>
 
 <br>
 
-![01_about.sh](assets/h01.svg)
+![01_about.sh](h01.svg)
 
-![about](assets/about.svg)
+![about](about.svg)
 
-![boot log](assets/bootlog.svg)
-
-<br>
-
-![02_roadmap](assets/h02.svg)
-
-![roadmap](assets/roadmap.svg)
+![boot log](bootlog.svg)
 
 <br>
 
-![03_stack_status](assets/h03.svg)
+![02_roadmap](h02.svg)
 
-![stack status](assets/stack.svg)
+![roadmap](roadmap.svg)
+
+<br>
+
+![03_stack_status](h03.svg)
+
+![stack status](stack.svg)
 
 **background tools I have used**
 
@@ -53,7 +52,7 @@
 
 <br>
 
-![04_background](assets/h04.svg)
+![04_background](h04.svg)
 
 Before moving toward DevOps, I worked in data science and web development. That background carries over: I write Python, build applications, and want to be the person who gets them deployed reliably.
 
@@ -70,13 +69,13 @@ Before moving toward DevOps, I worked in data science and web development. That 
 
 <br>
 
-![05_featured_projects](assets/h05.svg)
+![05_featured_projects](h05.svg)
 
-![featured projects](assets/projects.svg)
+![featured projects](projects.svg)
 
 <br>
 
-![06_command_reference](assets/h06.svg)
+![06_command_reference](h06.svg)
 
 ```bash
 $ docker ps                  # list running containers
@@ -113,13 +112,13 @@ CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS
 
 <br>
 
-![07_milestones](assets/h07.svg)
+![07_milestones](h07.svg)
 
-![milestones](assets/milestones.svg)
+![milestones](milestones.svg)
 
 <br>
 
-![08_contact](assets/h08.svg)
+![08_contact](h08.svg)
 
 <div align="center">
 
@@ -127,6 +126,6 @@ CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS
 [![Portfolio](https://img.shields.io/badge/Portfolio-numaansportfolio-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00e5ff)](https://numaansportfolio.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-numaan.y.opai%40gmail.com-0a0a0a?style=for-the-badge&logo=gmail&logoColor=ffd866)](mailto:numaan.y.opai@gmail.com)
 
-![exit](assets/footer.svg)
+![exit](footer.svg)
 
 </div>
