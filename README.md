@@ -16,11 +16,6 @@
 
 ## Skills
 
-| Area | Skills |
-| --- | --- |
-| **Programming** | Python · Java (basics) · JavaScript · SQL · HTML5 · CSS3 |
-| **Web & APIs** | React · Next.js · Node.js · Express.js · REST APIs · Tailwind CSS |
-| **AI & data** | TensorFlow · Keras · scikit-learn · Pandas · NumPy · LLM APIs · Prompt design · EDA · Regression · Classification · K-Means · PCA |
-| **Database** | MySQL |
-| **Cloud & DevOps** | Linux · Git · GitHub · Docker · AWS (fundamentals) · Networking · Bash |
-| **Tools** | Jupyter Notebook · Google Colab · Streamlit · Vercel |
+<p align="center">
+  <img src="skills-detail.svg" alt="Detailed skills in programming, web and APIs, AI and data, machine learning, databases, tools, and cloud and DevOps fundamentals" width="100%" />
+</p>
