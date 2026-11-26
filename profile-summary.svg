@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 264" role="img" aria-labelledby="title desc">
+  <title id="title">Profile summary</title>
+  <desc id="desc">MCA graduate specializing in Artificial Intelligence and Machine Learning, with a foundation in Python, SQL, data processing, and software development.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18263a"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55d6be"/>
+      <stop offset="1" stop-color="#88a7ff"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#55d6be" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#55d6be" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="panel-clip"><rect x="1" y="1" width="998" height="262" rx="20"/></clipPath>
+  </defs>
+  <style>
+    @keyframes soft-pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+    .pulse { animation: soft-pulse 5.5s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } .pulse animate { display: none; } }
+  </style>
+  <rect x="1" y="1" width="998" height="262" rx="20" fill="url(#panel)" stroke="#ffffff" stroke-opacity=".14"/>
+  <g clip-path="url(#panel-clip)">
+    <circle cx="920" cy="10" r="200" fill="url(#aura)"/>
+    <rect x="1" y="1" width="998" height="262" fill="url(#glass)"/>
+  </g>
+  <rect x="38" y="37" width="3" height="18" rx="1.5" fill="url(#accent)"/>
+  <text x="54" y="51" fill="#9fb0c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">PROFILE SUMMARY</text>
+  <circle class="pulse" cx="962" cy="45" r="3.5" fill="#55d6be">
+    <animate attributeName="r" values="2.8;4.2;2.8" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M38 68H962" stroke="#ffffff" stroke-opacity=".1"/>
+  <g fill="#d9e2ed" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">
+    <text x="40" y="99">MCA graduate specializing in Artificial Intelligence and Machine Learning, with a strong foundation in Python,</text>
+    <text x="40" y="123">SQL, data processing, and software development. Skilled in working with data using Pandas, NumPy, and Scikit-learn,</text>
+    <text x="40" y="147">with hands-on experience building projects involving machine learning, customer segmentation, and web applications.</text>
+    <text x="40" y="171">Familiar with REST APIs, databases, and modern development technologies. A quick learner with a problem-solving</text>
+    <text x="40" y="195">mindset, eager to apply technical knowledge to real-world challenges and contribute to data-driven and</text>
+    <text x="40" y="219">technology-focused teams.</text>
+  </g>
+</svg>
