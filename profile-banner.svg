@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="title desc">
+  <title id="title">Numaan Opai — Software Developer</title>
+  <desc id="desc">Software Developer with skills across AI and machine learning, full-stack web development, and cloud fundamentals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="1" stop-color="#1b2a3d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#55d6be"/>
+      <stop offset="1" stop-color="#88a7ff"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes soft-pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    .pulse { animation: soft-pulse 5s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+  </style>
+  <rect width="1000" height="300" rx="22" fill="url(#bg)"/>
+  <path d="M0 250H1000" stroke="#ffffff" stroke-opacity=".08"/>
+  <path d="M760 0V250M820 0V250M880 0V250M940 0V250M700 55H1000M700 115H1000M700 175H1000" stroke="#d5e2f3" stroke-opacity=".045"/>
+  <circle cx="870" cy="117" r="95" fill="none" stroke="#55d6be" stroke-opacity=".12" stroke-width="1.5"/>
+  <circle cx="870" cy="117" r="68" fill="none" stroke="#88a7ff" stroke-opacity=".16" stroke-width="1.5"/>
+  <circle class="pulse" cx="870" cy="117" r="7" fill="#55d6be"/>
+  <rect x="64" y="57" width="5" height="137" rx="2.5" fill="url(#accent)"/>
+  <text x="91" y="83" fill="#9fb0c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2.8">SOFTWARE · AI/ML · FULL STACK</text>
+  <text x="88" y="139" fill="#f4f7fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="43" font-weight="700">Numaan Opai</text>
+  <text x="91" y="174" fill="#c7d2e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Building across AI, web &amp; cloud</text>
+  <rect x="88" y="218" width="172" height="42" rx="21" fill="#55d6be" fill-opacity=".1" stroke="#55d6be" stroke-opacity=".42"/>
+  <text x="174" y="245" text-anchor="middle" fill="#baf4e9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">AI &amp; MACHINE LEARNING</text>
+  <rect x="274" y="218" width="143" height="42" rx="21" fill="#88a7ff" fill-opacity=".1" stroke="#88a7ff" stroke-opacity=".42"/>
+  <text x="345.5" y="245" text-anchor="middle" fill="#d2ddff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">FULL-STACK WEB</text>
+  <rect x="431" y="218" width="177" height="42" rx="21" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".16"/>
+  <text x="519.5" y="245" text-anchor="middle" fill="#d2dbe7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">CLOUD FUNDAMENTALS</text>
+</svg>
