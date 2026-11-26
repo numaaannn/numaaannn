@@ -10,6 +10,14 @@
       <stop offset="0" stop-color="#55d6be"/>
       <stop offset="1" stop-color="#88a7ff"/>
     </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".035"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#55d6be" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#55d6be" stop-opacity="0"/>
+    </radialGradient>
   </defs>
   <style>
     @keyframes soft-pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
@@ -17,19 +25,24 @@
     @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
   </style>
   <rect width="1000" height="300" rx="22" fill="url(#bg)"/>
+  <circle cx="850" cy="120" r="200" fill="url(#aura)"/>
   <path d="M0 250H1000" stroke="#ffffff" stroke-opacity=".08"/>
   <path d="M760 0V250M820 0V250M880 0V250M940 0V250M700 55H1000M700 115H1000M700 175H1000" stroke="#d5e2f3" stroke-opacity=".045"/>
-  <circle cx="870" cy="117" r="95" fill="none" stroke="#55d6be" stroke-opacity=".12" stroke-width="1.5"/>
-  <circle cx="870" cy="117" r="68" fill="none" stroke="#88a7ff" stroke-opacity=".16" stroke-width="1.5"/>
+  <circle class="pulse" cx="870" cy="117" r="95" fill="none" stroke="#55d6be" stroke-opacity=".18" stroke-width="1.5"/>
+  <circle cx="870" cy="117" r="68" fill="none" stroke="#88a7ff" stroke-opacity=".2" stroke-width="1.5"/>
   <circle class="pulse" cx="870" cy="117" r="7" fill="#55d6be"/>
+  <rect x=".5" y=".5" width="999" height="299" rx="21.5" fill="none" stroke="#ffffff" stroke-opacity=".13"/>
   <rect x="64" y="57" width="5" height="137" rx="2.5" fill="url(#accent)"/>
   <text x="91" y="83" fill="#9fb0c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2.8">SOFTWARE · AI/ML · FULL STACK</text>
   <text x="88" y="139" fill="#f4f7fb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="43" font-weight="700">Numaan Opai</text>
   <text x="91" y="174" fill="#c7d2e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Building across AI, web &amp; cloud</text>
-  <rect x="88" y="218" width="172" height="42" rx="21" fill="#55d6be" fill-opacity=".1" stroke="#55d6be" stroke-opacity=".42"/>
+  <rect x="88" y="218" width="172" height="42" rx="21" fill="url(#glass)" stroke="#55d6be" stroke-opacity=".48"/>
+  <path d="M109 219H239" stroke="#ffffff" stroke-opacity=".14"/>
   <text x="174" y="245" text-anchor="middle" fill="#baf4e9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">AI &amp; MACHINE LEARNING</text>
-  <rect x="274" y="218" width="143" height="42" rx="21" fill="#88a7ff" fill-opacity=".1" stroke="#88a7ff" stroke-opacity=".42"/>
+  <rect x="274" y="218" width="143" height="42" rx="21" fill="url(#glass)" stroke="#88a7ff" stroke-opacity=".48"/>
+  <path d="M293 219H398" stroke="#ffffff" stroke-opacity=".14"/>
   <text x="345.5" y="245" text-anchor="middle" fill="#d2ddff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">FULL-STACK WEB</text>
-  <rect x="431" y="218" width="177" height="42" rx="21" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".16"/>
+  <rect x="431" y="218" width="177" height="42" rx="21" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".2"/>
+  <path d="M451 219H588" stroke="#ffffff" stroke-opacity=".14"/>
   <text x="519.5" y="245" text-anchor="middle" fill="#d2dbe7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">CLOUD FUNDAMENTALS</text>
 </svg>

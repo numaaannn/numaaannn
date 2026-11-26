@@ -6,6 +6,15 @@
       <stop offset="0" stop-color="#101827"/>
       <stop offset="1" stop-color="#1b2a3d"/>
     </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".075"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".025"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop offset="0" stop-color="#55d6be" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#55d6be" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="panel-clip"><rect width="1000" height="430" rx="20"/></clipPath>
   </defs>
   <style>
     @keyframes soft-pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
@@ -13,48 +22,58 @@
     @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
   </style>
   <rect width="1000" height="430" rx="20" fill="url(#panel)"/>
+  <g clip-path="url(#panel-clip)">
+    <circle cx="140" cy="20" r="260" fill="url(#aura)"/>
+    <circle cx="850" cy="430" r="280" fill="url(#aura)"/>
+  </g>
   <text x="40" y="39" fill="#9fb0c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">TECHNOLOGY TOOLKIT</text>
   <circle class="pulse" cx="950" cy="35" r="4" fill="#55d6be"/>
   <path d="M40 53H960" stroke="#ffffff" stroke-opacity=".1"/>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <rect x="40" y="70" width="292" height="150" rx="13" fill="#0d1521" stroke="#55d6be" stroke-opacity=".35"/>
-    <rect x="40" y="70" width="292" height="3" rx="1.5" fill="#55d6be"/>
+    <rect x="40" y="70" width="292" height="150" rx="13" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".15"/>
+    <rect x="40" y="70" width="292" height="3" rx="1.5" fill="#55d6be" fill-opacity=".72"/>
+    <path d="M54 71H318" stroke="#ffffff" stroke-opacity=".12"/>
     <text x="60" y="103" fill="#55d6be" font-size="11" font-weight="700" letter-spacing="1.2">01  /  FOUNDATIONS</text>
     <text x="60" y="132" fill="#f4f7fb" font-size="19" font-weight="700">Programming</text>
     <text x="60" y="162" fill="#c7d2e1" font-size="13">Python · Java (basics)</text>
     <text x="60" y="185" fill="#c7d2e1" font-size="13">JavaScript · SQL · HTML5 · CSS3</text>
 
-    <rect x="354" y="70" width="292" height="150" rx="13" fill="#0d1521" stroke="#88a7ff" stroke-opacity=".38"/>
-    <rect x="354" y="70" width="292" height="3" rx="1.5" fill="#88a7ff"/>
+    <rect x="354" y="70" width="292" height="150" rx="13" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".15"/>
+    <rect x="354" y="70" width="292" height="3" rx="1.5" fill="#88a7ff" fill-opacity=".72"/>
+    <path d="M368 71H632" stroke="#ffffff" stroke-opacity=".12"/>
     <text x="374" y="103" fill="#a9bcff" font-size="11" font-weight="700" letter-spacing="1.2">02  /  APPLICATIONS</text>
     <text x="374" y="132" fill="#f4f7fb" font-size="19" font-weight="700">Web &amp; APIs</text>
     <text x="374" y="162" fill="#c7d2e1" font-size="13">React · Next.js · Node.js</text>
     <text x="374" y="185" fill="#c7d2e1" font-size="13">Express.js · REST APIs · Tailwind CSS</text>
 
-    <rect x="668" y="70" width="292" height="150" rx="13" fill="#0d1521" stroke="#d6b779" stroke-opacity=".4"/>
-    <rect x="668" y="70" width="292" height="3" rx="1.5" fill="#d6b779"/>
+    <rect x="668" y="70" width="292" height="150" rx="13" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".15"/>
+    <rect x="668" y="70" width="292" height="3" rx="1.5" fill="#d6b779" fill-opacity=".72"/>
+    <path d="M682 71H946" stroke="#ffffff" stroke-opacity=".12"/>
     <text x="688" y="103" fill="#e2c88f" font-size="11" font-weight="700" letter-spacing="1.2">03  /  INTELLIGENCE</text>
     <text x="688" y="132" fill="#f4f7fb" font-size="19" font-weight="700">AI &amp; Data</text>
     <text x="688" y="162" fill="#c7d2e1" font-size="13">TensorFlow · Keras · scikit-learn</text>
     <text x="688" y="185" fill="#c7d2e1" font-size="13">Pandas · NumPy · LLM APIs</text>
 
-    <rect x="40" y="240" width="292" height="150" rx="13" fill="#0d1521" stroke="#d6b779" stroke-opacity=".3"/>
-    <rect x="40" y="240" width="292" height="3" rx="1.5" fill="#d6b779" fill-opacity=".8"/>
+    <rect x="40" y="240" width="292" height="150" rx="13" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".15"/>
+    <rect x="40" y="240" width="292" height="3" rx="1.5" fill="#d6b779" fill-opacity=".65"/>
+    <path d="M54 241H318" stroke="#ffffff" stroke-opacity=".12"/>
     <text x="60" y="273" fill="#e2c88f" font-size="11" font-weight="700" letter-spacing="1.2">04  /  METHODS</text>
     <text x="60" y="302" fill="#f4f7fb" font-size="19" font-weight="700">ML &amp; Prompting</text>
     <text x="60" y="332" fill="#c7d2e1" font-size="13">Prompt design · EDA · regression</text>
     <text x="60" y="355" fill="#c7d2e1" font-size="13">Classification · K-Means · PCA</text>
 
-    <rect x="354" y="240" width="292" height="150" rx="13" fill="#0d1521" stroke="#55d6be" stroke-opacity=".3"/>
-    <rect x="354" y="240" width="292" height="3" rx="1.5" fill="#55d6be" fill-opacity=".8"/>
+    <rect x="354" y="240" width="292" height="150" rx="13" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".15"/>
+    <rect x="354" y="240" width="292" height="3" rx="1.5" fill="#55d6be" fill-opacity=".65"/>
+    <path d="M368 241H632" stroke="#ffffff" stroke-opacity=".12"/>
     <text x="374" y="273" fill="#55d6be" font-size="11" font-weight="700" letter-spacing="1.2">05  /  DATA &amp; BUILD</text>
     <text x="374" y="302" fill="#f4f7fb" font-size="19" font-weight="700">Data &amp; Tools</text>
     <text x="374" y="332" fill="#c7d2e1" font-size="13">MySQL · Jupyter · Google Colab</text>
     <text x="374" y="355" fill="#c7d2e1" font-size="13">Streamlit · Vercel</text>
 
-    <rect x="668" y="240" width="292" height="150" rx="13" fill="#0d1521" stroke="#88a7ff" stroke-opacity=".3"/>
-    <rect x="668" y="240" width="292" height="3" rx="1.5" fill="#88a7ff" fill-opacity=".8"/>
+    <rect x="668" y="240" width="292" height="150" rx="13" fill="url(#glass)" stroke="#ffffff" stroke-opacity=".15"/>
+    <rect x="668" y="240" width="292" height="3" rx="1.5" fill="#88a7ff" fill-opacity=".65"/>
+    <path d="M682 241H946" stroke="#ffffff" stroke-opacity=".12"/>
     <text x="688" y="273" fill="#a9bcff" font-size="11" font-weight="700" letter-spacing="1.2">06  /  DELIVERY</text>
     <text x="688" y="302" fill="#f4f7fb" font-size="19" font-weight="700">Cloud &amp; DevOps</text>
     <text x="688" y="332" fill="#c7d2e1" font-size="13">Linux · Git · GitHub · Docker</text>

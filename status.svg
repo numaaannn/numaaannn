@@ -6,6 +6,19 @@
       <stop offset="0" stop-color="#101827"/>
       <stop offset="1" stop-color="#1b2a3d"/>
     </linearGradient>
+    <radialGradient id="mint-glow">
+      <stop offset="0" stop-color="#55d6be" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#55d6be" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blue-glow">
+      <stop offset="0" stop-color="#88a7ff" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#88a7ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".015"/>
+    </linearGradient>
+    <clipPath id="panel-clip"><rect x="1" y="1" width="998" height="124" rx="18"/></clipPath>
   </defs>
   <style>
     @keyframes soft-pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
@@ -13,6 +26,12 @@
     @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
   </style>
   <rect x="1" y="1" width="998" height="124" rx="18" fill="url(#panel)" stroke="#ffffff" stroke-opacity=".12"/>
+  <g clip-path="url(#panel-clip)">
+    <ellipse cx="156" cy="63" rx="210" ry="120" fill="url(#mint-glow)"/>
+    <ellipse cx="832" cy="63" rx="220" ry="125" fill="url(#blue-glow)"/>
+  </g>
+  <rect x="1.5" y="1.5" width="997" height="123" rx="17" fill="url(#glass)"/>
+  <rect x="1.5" y="1.5" width="997" height="123" rx="17" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
   <path d="M334 18V108M667 18V108" stroke="#ffffff" stroke-opacity=".1"/>
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
     <circle class="pulse" style="animation-delay:0s" cx="39" cy="42" r="4" fill="#55d6be"/>
