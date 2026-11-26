@@ -23,7 +23,7 @@
   <style>
     @keyframes soft-pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
     .pulse { animation: soft-pulse 5.5s ease-in-out infinite; }
-    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } .pulse animate { display: none; } }
   </style>
   <rect x="1" y="1" width="998" height="124" rx="18" fill="url(#panel)" stroke="#ffffff" stroke-opacity=".12"/>
   <g clip-path="url(#panel-clip)">
@@ -34,17 +34,23 @@
   <rect x="1.5" y="1.5" width="997" height="123" rx="17" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
   <path d="M334 18V108M667 18V108" stroke="#ffffff" stroke-opacity=".1"/>
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <circle class="pulse" style="animation-delay:0s" cx="39" cy="42" r="4" fill="#55d6be"/>
+    <circle class="pulse" style="animation-delay:0s" cx="39" cy="42" r="4" fill="#55d6be">
+      <animate attributeName="r" values="3.5;4.5;3.5" dur="5s" repeatCount="indefinite"/>
+    </circle>
     <text x="54" y="46" fill="#55d6be" font-size="11" font-weight="700" letter-spacing="1.5">01  /  INTELLIGENCE</text>
     <text x="28" y="79" fill="#f4f7fb" font-size="19" font-weight="700">AI &amp; Data</text>
     <text x="28" y="101" fill="#9fb0c6" font-size="12">Machine learning · analysis · LLMs</text>
 
-    <circle class="pulse" style="animation-delay:1.5s" cx="373" cy="42" r="4" fill="#88a7ff"/>
+    <circle class="pulse" style="animation-delay:1.5s" cx="373" cy="42" r="4" fill="#88a7ff">
+      <animate attributeName="r" values="3.5;4.5;3.5" dur="5s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
     <text x="388" y="46" fill="#a9bcff" font-size="11" font-weight="700" letter-spacing="1.5">02  /  APPLICATIONS</text>
     <text x="362" y="79" fill="#f4f7fb" font-size="19" font-weight="700">Full-Stack Web</text>
     <text x="362" y="101" fill="#9fb0c6" font-size="12">Frontend · backend · REST APIs</text>
 
-    <circle class="pulse" style="animation-delay:3s" cx="706" cy="42" r="4" fill="#d6b779"/>
+    <circle class="pulse" style="animation-delay:3s" cx="706" cy="42" r="4" fill="#d6b779">
+      <animate attributeName="r" values="3.5;4.5;3.5" dur="5s" begin="3s" repeatCount="indefinite"/>
+    </circle>
     <text x="721" y="46" fill="#e2c88f" font-size="11" font-weight="700" letter-spacing="1.5">03  /  DELIVERY</text>
     <text x="695" y="79" fill="#f4f7fb" font-size="19" font-weight="700">Cloud &amp; DevOps</text>
     <text x="695" y="101" fill="#9fb0c6" font-size="12">Linux · containers · cloud fundamentals</text>

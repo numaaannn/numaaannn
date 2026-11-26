@@ -22,7 +22,7 @@
   <style>
     @keyframes soft-pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
     .pulse { animation: soft-pulse 5s ease-in-out infinite; }
-    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } .pulse animate, .orbit-dot animateTransform { display: none; } }
   </style>
   <rect width="1000" height="300" rx="22" fill="url(#bg)"/>
   <circle cx="850" cy="120" r="200" fill="url(#aura)"/>
@@ -31,6 +31,9 @@
   <circle class="pulse" cx="870" cy="117" r="95" fill="none" stroke="#55d6be" stroke-opacity=".18" stroke-width="1.5"/>
   <circle cx="870" cy="117" r="68" fill="none" stroke="#88a7ff" stroke-opacity=".2" stroke-width="1.5"/>
   <circle class="pulse" cx="870" cy="117" r="7" fill="#55d6be"/>
+  <circle class="orbit-dot" cx="870" cy="22" r="3.2" fill="#c7fff5">
+    <animateTransform attributeName="transform" type="rotate" from="0 870 117" to="360 870 117" dur="14s" repeatCount="indefinite"/>
+  </circle>
   <rect x=".5" y=".5" width="999" height="299" rx="21.5" fill="none" stroke="#ffffff" stroke-opacity=".13"/>
   <rect x="64" y="57" width="5" height="137" rx="2.5" fill="url(#accent)"/>
   <text x="91" y="83" fill="#9fb0c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2.8">SOFTWARE · AI/ML · FULL STACK</text>

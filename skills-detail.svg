@@ -19,7 +19,7 @@
   <style>
     @keyframes soft-pulse { 0%, 100% { opacity: .45; } 50% { opacity: .9; } }
     .pulse { animation: soft-pulse 5.5s ease-in-out infinite; }
-    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .pulse { animation: none; } .pulse animate { display: none; } }
   </style>
   <rect width="1000" height="420" rx="20" fill="url(#panel)"/>
   <g clip-path="url(#panel-clip)">
@@ -27,7 +27,9 @@
     <circle cx="120" cy="420" r="240" fill="url(#aura)"/>
   </g>
   <text x="38" y="39" fill="#9fb0c6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">SKILLS AT A GLANCE</text>
-  <circle class="pulse" cx="962" cy="35" r="4" fill="#55d6be"/>
+  <circle class="pulse" cx="962" cy="35" r="4" fill="#55d6be">
+    <animate attributeName="r" values="3;4.8;3" dur="5s" repeatCount="indefinite"/>
+  </circle>
   <path d="M38 53H962" stroke="#ffffff" stroke-opacity=".1"/>
 
   <g font-family="Inter,Segoe UI,Arial,sans-serif">
